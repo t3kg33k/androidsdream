@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on </title>
+    <link>https://www.androidsdream.net/tags/hardware/</link>
+    <description>Recent content in Hardware on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Nov 2024 15:30:00 -0500</lastBuildDate>
+    <atom:link href="https://www.androidsdream.net/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fedora &amp; Debian Photo Album Kiosk</title>
+      <link>https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/</link>
+      <pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
+      <guid>https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/</guid>
+      <description>I previously posted about setting up a Raspberry Pi with Raspbian 11 as a photo album kiosk. Since then I wanted to test completing the same setup with Debian and Fedora on an x86 machine, just in case my Raspberry Pi died, or if I decided I needed a faster machine and wanted to use my spare Beelink S12. This a great setup if you have a spare machine and monitor lying around for displaying family photos (again, see previously post to see my example).</description>
+    </item>
+    <item>
+      <title>Beelink Mini S12 Faulty Network</title>
+      <link>https://www.androidsdream.net/posts/beelink-s12-faulty-network/</link>
+      <pubDate>Fri, 27 Sep 2024 15:30:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/beelink-s12-faulty-network/</guid>
+      <description>I recently purchased a second Beelink mini S12; mainly because it was such a good deal for $140 USD that I couldn&amp;rsquo;t pass up. The difference in this model versus the S12 Pro I had purchased for my Jellyfin server (see previous post), is that the S12 Pro is an Intel N100 while the S12 is an Intel N95. Well, it is true that you get what you pay for. The S12 (N95) has a bad wired network interface.</description>
+    </item>
+    <item>
+      <title>Jellyfin and the Beelink Mini S12 Pro</title>
+      <link>https://www.androidsdream.net/posts/jellyfin-and-the-beelink-s12-pro/</link>
+      <pubDate>Fri, 14 Jun 2024 06:15:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/jellyfin-and-the-beelink-s12-pro/</guid>
+      <description>I believe I may have mentioned (but don&amp;rsquo;t fully recall) in a previous post that I was a Plex user for many years. I had it running on my Intel NUC running CentOS then to AlmaLinux then to Red Hat and it worked well without any issues. For the past couple of years or so, I haven&amp;rsquo;t been happy with the direction Plex has been moving, like requiring a &amp;ldquo;cloud&amp;rdquo; account in order to view my own local media.</description>
+    </item>
+    <item>
+      <title>New PC Build</title>
+      <link>https://www.androidsdream.net/posts/new-pc-build/</link>
+      <pubDate>Thu, 23 May 2024 05:30:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/new-pc-build/</guid>
+      <description>Finally, after using the same PC build for 9 years, I have built a new desktop PC. Thanks to the community members over at Tom&amp;rsquo;s Hardware forum, I puchased the parts from this list (as of 05/2024): https://pcpartpicker.com/user/t3kg33k_og/saved/#view=zpXWrH&#xA;Even though I am an avid Linux fan, I had no choice but to install Windows 11 because there is one game that I play regulary (when I have the time), and have played for a very long time, that will not work in Steam&amp;rsquo;s ProtonDB is Insurgency: Sandstorm due to the anti-cheat software it uses is only compatible in Windows.</description>
+    </item>
+    <item>
+      <title>Minisforum NAB5 New VM Host</title>
+      <link>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</link>
+      <pubDate>Mon, 15 Apr 2024 05:06:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</guid>
+      <description>I found such a good deal on a new computer a few weeks ago that I had to pull the trigger. I had been shopping for an inexpensive mini-PC that I could setup as a new KVM/libvirt virtual machine host to replace my Intel NUC and found the Minisforum Venus Series NAB5 on Newegg on sale for 359 dollars USD. Normally, I purchase used computers on Ebay, most of the time for under 200 dollars USD; the two Lenovo ThinkCentre M700 you see in the diagram below I purchased for less than 100 dollars USD (my leon machine had some roles at one time but have been migrated to other servers).</description>
+    </item>
+    <item>
+      <title>Raspberry Pi Kiosk Photo Album</title>
+      <link>https://www.androidsdream.net/posts/raspberry-pi-kiosk/</link>
+      <pubDate>Thu, 15 Feb 2024 08:15:45 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/raspberry-pi-kiosk/</guid>
+      <description>A while back I had purchased an Eyoyo 7 inch mini HDMI monitor to use on my physical servers on my home network. I usually setup headless configuration on my servers but I still need to be able to see what I am doing when I install the operating system (I haven&amp;rsquo;t had the time yet to configure automated install) or troubleshoot an issue. Well the monitor has been sitting on my home office desk, most of the time, doing nothing.</description>
+    </item>
+  </channel>
+</rss>

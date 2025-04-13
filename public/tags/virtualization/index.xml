@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtualization on </title>
+    <link>https://www.androidsdream.net/tags/virtualization/</link>
+    <description>Recent content in Virtualization on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Mar 2025 11:00:00 -0400</lastBuildDate>
+    <atom:link href="https://www.androidsdream.net/tags/virtualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KVM Virtual Machine Template</title>
+      <link>https://www.androidsdream.net/posts/kvm-virtual-machine-template/</link>
+      <pubDate>Thu, 20 Mar 2025 11:00:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/kvm-virtual-machine-template/</guid>
+      <description>In a previous post I discussed creating a RHEL or AlmaLinux KVM virtual machine using a Kickstart file and a bash shell script. I&amp;rsquo;ve recently decided that I wanted an easier approach to quickly creating a virtual machine using a pre-existing template I had created. In my research, I found there are quite a few ways to complete this task but this is the method that works for me, using AlmaLinux, and may also work for you.</description>
+    </item>
+    <item>
+      <title>Minisforum NAB5 New VM Host</title>
+      <link>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</link>
+      <pubDate>Mon, 15 Apr 2024 05:06:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</guid>
+      <description>I found such a good deal on a new computer a few weeks ago that I had to pull the trigger. I had been shopping for an inexpensive mini-PC that I could setup as a new KVM/libvirt virtual machine host to replace my Intel NUC and found the Minisforum Venus Series NAB5 on Newegg on sale for 359 dollars USD. Normally, I purchase used computers on Ebay, most of the time for under 200 dollars USD; the two Lenovo ThinkCentre M700 you see in the diagram below I purchased for less than 100 dollars USD (my leon machine had some roles at one time but have been migrated to other servers).</description>
+    </item>
+    <item>
+      <title>Virtual Machine Automated Install</title>
+      <link>https://www.androidsdream.net/posts/virtual-machine-automated-install/</link>
+      <pubDate>Wed, 13 Mar 2024 08:15:45 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/virtual-machine-automated-install/</guid>
+      <description>As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing.</description>
+    </item>
+  </channel>
+</rss>

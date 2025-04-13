@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.145453261a7755f5042a854c4213501d215a8fbe34c08d181c40f803f1315e74.js"></script>
+
+
+
+
+
+  
+
+
+
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="icon" href=/images/favicon-32x32.png>
+
+    
+    
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+<!-- Open Graph image and Twitter Card metadata -->
+
+<title itemprop="name">Androids Dream - Fedora &amp; Debian Photo Album Kiosk</title>
+<meta property="og:title" content=Androids&#32;Dream&#32;-&#32;Fedora&#32;&amp;&#32;Debian&#32;Photo&#32;Album&#32;Kiosk />
+<meta name="twitter:title" content=Androids&#32;Dream&#32;-&#32;Fedora&#32;&amp;&#32;Debian&#32;Photo&#32;Album&#32;Kiosk />
+<meta itemprop="name" content=Androids&#32;Dream&#32;-&#32;Fedora&#32;&amp;&#32;Debian&#32;Photo&#32;Album&#32;Kiosk />
+<meta name="application-name" content=Androids&#32;Dream&#32;-&#32;Fedora&#32;&amp;&#32;Debian&#32;Photo&#32;Album&#32;Kiosk />
+<meta property="og:site_name" content="" />
+
+
+<meta name="description" content="" />
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+
+<base href="https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/" />
+<link rel="canonical" href="https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/" itemprop="url" />
+<meta name="url" content="https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/" />
+<meta name="twitter:url" content="https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/" />
+<meta property="og:url" content="https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/" />
+
+
+<meta property="og:updated_time" content="2024-11-07T15:30:00-05:00" />
+
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href='https://www.androidsdream.net/sitemap.xml' />
+
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+
+
+<meta name="twitter:site" content="" />
+<meta name="twitter:creator" content="" />
+<meta property="fb:admins" content="" />
+
+
+<meta name="apple-mobile-web-app-title" content="" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.126.2">
+
+
+    
+    
+
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.c14940833573df94b8783cd5154d0512963e75cadd50c86575c8af08885797ae.css">
+
+
+    
+    <style>
+    body {
+        --sidebar-bg-color: #202020;
+        --sidebar-img-border-color: #515151;
+        --sidebar-p-color: #909090;
+        --sidebar-h1-color: #FFF;
+        --sidebar-a-color: #FFF;
+        --sidebar-socials-color: #FFF;
+        --text-color: #222;
+        --bkg-color: #FAF9F6;
+        --post-title-color: #303030;
+        --list-color: #5A5A5A;
+        --link-color: #0FB600FF;
+        --date-color: #515151;
+        --table-border-color: #E5E5E5;
+        --table-stripe-color: #F9F9F9;
+        --code-color: #000;
+        --code-background-color: #E5E5E5;
+        --code-block-color: #FFF;
+        --code-block-background-color: #272822;
+        --moon-sun-color: #FFF;
+        --moon-sun-background-color: #515151;
+    }
+    body.dark-theme {
+        --text-color: #EEE;
+        --bkg-color: #121212;
+        --post-title-color: #DBE2E9;
+        --list-color: #9D9D9D;
+        --link-color: #0FB600FF;
+        --date-color: #9A9A9A;
+        --table-border-color: #515151;
+        --table-stripe-color: #202020;
+        --code-color: #FFF;
+        --code-background-color: #515151;
+        --code-block-color: #FFF;
+        --code-block-background-color: #272822;
+    }
+    body {
+        background-color: var(--bkg-color);
+    }
+</style>
+
+</head>
+
+    <body class="dark-theme">
+        <div class="wrapper">
+            <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="light-dark" align="right">
+    <button class="btn-light-dark" title="Toggle light/dark mode">
+        <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        </svg>
+        <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
+            <path fill="currentColor" d="M8 12a4 4 0 1 0 0-8a4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </svg>
+    </button>
+</div>
+
+        <div class="sidebar-about">
+    <h1 class="brand">
+        
+            <a href="https://www.androidsdream.net/">
+                <img src="/images/linux_penguin_android_sleeping_dreaming.png" alt="brand image">
+            </a>
+        
+        
+            <a href="https://www.androidsdream.net/">
+                <h1>Androids Dream</h1>
+            </a>
+        
+    </h1>
+    <p class="lead">
+    Tech life of a tech geek
+    </p>
+</div>
+
+        <nav>
+    <ul class="sidebar-nav">
+
+        
+        
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+                    <li class="heading">
+                        <a href="/posts/">Posts</a>
+                    </li>
+                    
+                        <li class="sub-heading">
+                            Recent
+                        </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/kvm-virtual-machine-template/">KVM Virtual Machine Template</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/home-network-internet-parental-controls/">Home Network Internet Parental Controls with UniFi Network</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/linux_101_part_01/">Linux 101 - Part 1</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/">Fedora &amp; Debian Photo Album Kiosk</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/beelink-s12-faulty-network/">Beelink Mini S12 Faulty Network</a>
+                            </li>
+                        
+                    
+                
+            
+            
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+                    <li class="heading">
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                
+            
+                
+                
+            
+            
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+
+    </ul>
+</nav>
+
+        
+    <a target="_blank" class="social" title="Bluesky" href="https://bsky.app/profile/t3kg33k.bsky.social">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 360 320">
+            <path fill="currentColor" d="M180 142c-16.3-31.7-60.7-90.8-102-120C38.5-5.9 23.4-1 13.5 3.4 2.1 8.6 0 26.2 0 36.5c0 10.4 5.7 84.8 9.4 97.2 12.2 41 55.7 55 95.7 50.5-58.7 8.6-110.8 30-42.4 106.1 75.1 77.9 103-16.7 117.3-64.6 14.3 48 30.8 139 116 64.6 64-64.6 17.6-97.5-41.1-106.1 40 4.4 83.5-9.5 95.7-50.5 3.7-12.4 9.4-86.8 9.4-97.2 0-10.3-2-27.9-13.5-33C336.5-1 321.5-6 282 22c-41.3 29.2-85.7 88.3-102 120Z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+    <a target="_blank" class="social" rel="me" title="Mastodon" href="https://noc.social/@t3kg33k">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M20.94 14c-.28 1.41-2.44 2.96-4.97 3.26c-1.31.15-2.6.3-3.97.24c-2.25-.11-4-.54-4-.54v.62c.32 2.22 2.22 2.35 4.03 2.42c1.82.05 3.44-.46 3.44-.46l.08 1.65s-1.28.68-3.55.81c-1.25.07-2.81-.03-4.62-.5c-3.92-1.05-4.6-5.24-4.7-9.5l-.01-3.43c0-4.34 2.83-5.61 2.83-5.61C6.95 2.3 9.41 2 11.97 2h.06c2.56 0 5.02.3 6.47.96c0 0 2.83 1.27 2.83 5.61c0 0 .04 3.21-.39 5.43M18 8.91c0-1.08-.3-1.91-.85-2.56c-.56-.63-1.3-.96-2.23-.96c-1.06 0-1.87.41-2.42 1.23l-.5.88l-.5-.88c-.56-.82-1.36-1.23-2.43-1.23c-.92 0-1.66.33-2.23.96C6.29 7 6 7.83 6 8.91v5.26h2.1V9.06c0-1.06.45-1.62 1.36-1.62c1 0 1.5.65 1.5 1.93v2.79h2.07V9.37c0-1.28.5-1.93 1.51-1.93c.9 0 1.35.56 1.35 1.62v5.11H18V8.91Z"/>
+        </svg>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+    <a target="_blank" class="social" title="RSS Feed" href="/posts/index.xml">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1.2em" viewBox="0 0 1280.000000 1280.000000">
+            <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="currentColor">
+                <path d="M2295 11929 c-284 -12 -642 -45 -707 -65 -17 -5 -18 -63 -18 -1039 0 -569 4 -1036 8 -1039 5 -3 74 6 153 19 510 86 1168 95 1789 25 1348 -153 2602 -677 3670 -1531 385 -308 820 -744 1126 -1129 842 -1060 1362 -2313 1514 -3650 70 -621 61 -1279 -25 -1789 -13 -79 -22 -148 -19 -153 3 -4 471 -8 1039 -8 l1035 0 5 23 c51 225 85 942 67 1419 -23 605 -77 1044 -198 1617 -294 1400 -927 2734 -1823 3846 -1043 1295 -2364 2259 -3909 2854 -1158 447 -2451 656 -3707 600z"/>
+                <path d="M2255 7845 c-269 -25 -620 -81 -667 -106 -17 -9 -18 -55 -18 -899 0 -706 3 -890 13 -890 6 0 66 18 132 41 130 44 288 79 467 105 154 21 577 30 749 15 1207 -107 2267 -823 2814 -1902 166 -327 268 -637 330 -1001 38 -227 48 -384 42 -662 -8 -348 -44 -590 -126 -831 -23 -66 -41 -126 -41 -132 0 -10 184 -13 890 -13 844 0 890 1 899 18 27 50 88 452 110 725 14 162 14 624 1 782 -59 703 -233 1323 -545 1945 -481 956 -1313 1788 -2270 2268 -620 310 -1239 483 -1940 542 -165 14 -669 10 -840 -5z"/>
+                <path d="M2519 3815 c-391 -66 -725 -336 -868 -703 -79 -201 -96 -462 -45 -677 83 -344 338 -641 666 -774 116 -47 205 -69 330 -80 412 -39 811 153 1040 500 193 292 240 648 128 981 -135 403 -492 699 -914 757 -100 14 -241 12 -337 -4z"/>
+            </g>
+        </svg>
+    </a>
+
+
+
+        <p class="footnote">
+powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+    <br>
+    &copy; 2025 . All rights reserved.
+</p>
+
+  </div>
+</aside>
+
+            <main class="content container">
+                <div class="post">
+  <div class="info">
+  <h1 class="post-title">
+    <a href="https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/">Fedora &amp; Debian Photo Album Kiosk</a>
+  </h1>
+
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2024-11-07T15:30:00-0500" class="post-date">
+        November 7, 2024
+      </time>
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>5 mins read</span>
+      </span>
+    </div>
+
+    
+    <ul class="tags">
+      
+      <li class="tag-Linux">
+        <a href="https://www.androidsdream.net/tags/linux">Linux</a>
+      </li>
+      
+      <li class="tag-Fedora">
+        <a href="https://www.androidsdream.net/tags/fedora">Fedora</a>
+      </li>
+      
+      <li class="tag-Debian">
+        <a href="https://www.androidsdream.net/tags/debian">Debian</a>
+      </li>
+      
+      <li class="tag-Shell script">
+        <a href="https://www.androidsdream.net/tags/shell-script">Shell script</a>
+      </li>
+      
+      <li class="tag-Hardware">
+        <a href="https://www.androidsdream.net/tags/hardware">Hardware</a>
+      </li>
+      
+      <li class="tag-Homelab">
+        <a href="https://www.androidsdream.net/tags/homelab">Homelab</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+  <p>I <a href="https://www.androidsdream.net/posts/raspberry-pi-kiosk/" target="_blank">previously posted</a> about setting up a Raspberry Pi with Raspbian 11 as a photo album kiosk. Since then I wanted to test completing the same setup with Debian and Fedora on an x86 machine, just in case my Raspberry Pi died, or if I decided I needed a faster machine and wanted to use my spare Beelink S12. This a great setup if you have a spare machine and monitor lying around for displaying family photos (again, see previously post to see my example). Well, in testing on a virtual machine I came up with these basic steps below.</p>
+<h2 id="for-debian">For Debian</h2>
+<p>*NOTE: The following steps were tested with Debian 12.6</p>
+<p>1. During install select LXDE as the DE and SSH server. Others are optional.</p>
+<p>2. Ensure user has lxde selected as DE when first logging in after OS install</p>
+<p>3. Create directory to hold pictures.</p>
+<p><code>sudo mkdir /pics</code></p>
+<p><code>sudo chmod 777 -R /pics</code></p>
+<p>4. Create shell script and add execute permissions in home directory with following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>cd /pics
+</span></span><span style="display:flex;"><span>feh -Z -z -F -D <span style="color:#ae81ff">300</span> --hide-pointer --auto-rotate
+</span></span></code></pre></div><p>NOTE:
+Z = auto zoom
+z = randomize
+F = fullscreen
+D = slideshow delay in seconds</p>
+<p><code>chmod 775 /home/&lt;yourusername&gt;/kiosk.sh</code></p>
+<p>5. Install feh utility</p>
+<p><code>sudo apt install feh</code></p>
+<p>6. Update /etc/lightdm/lightdm.conf with this in the [Seat:*] section:</p>
+<p><code>xserver-command=X -s 0 –dpms</code></p>
+<p><code>autologin-user=&lt;yourusername&gt;</code></p>
+<p><code>autologin-user-timeout=0</code></p>
+<p>7. Edit .config/lxsession/LXDE/autostart in the user&rsquo;s home directory and add the shell script from step 4 above at the bottom:</p>
+<p><code>/home/&lt;yourusername&gt;/kiosk.sh</code></p>
+<p>8. Reboot</p>
+<p>OPTIONAL: Browse pictures using SAMBA</p>
+<p>1. Install Samba</p>
+<p><code>sudo apt install samba samba-common -y</code></p>
+<p>2. Make backup of original</p>
+<p><code>sudo cp /etc/samba/smb.conf /etc/samba/smb.bk</code></p>
+<p>3. Edit original file, remove all and add the following</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[global]
+</span></span><span style="display:flex;"><span>        map to guest = Bad User
+</span></span><span style="display:flex;"><span>        log file = /var/log/samba/%m
+</span></span><span style="display:flex;"><span>        log level = 1
+</span></span><span style="display:flex;"><span>        server role = standalone server
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[guest]
+</span></span><span style="display:flex;"><span>        # This share allows anonymous (guest) access
+</span></span><span style="display:flex;"><span>        # without authentication!
+</span></span><span style="display:flex;"><span>        path = /pics
+</span></span><span style="display:flex;"><span>        read only = no
+</span></span><span style="display:flex;"><span>        guest ok = yes
+</span></span><span style="display:flex;"><span>        guest only = yes
+</span></span></code></pre></div><p>4. Enable and start the service</p>
+<p><code>sudo systemctl enable --now smb.service</code></p>
+<h2 id="below-are-the-similar-steps-for-fedora">Below are the similar steps for Fedora</h2>
+<p>*NOTE: Tested with both Fedora 40 &amp; 41 LXQt Spin</p>
+<p>1. Install Fedora LXQt from Fedora&rsquo;s Spin.</p>
+<p>2. Ensure user has lxqt selected as DE when first logging in after OS install</p>
+<p>*OPTIONAL: Disable firewalld and SELinux</p>
+<p>3. Create directory to hold pictures</p>
+<p><code>sudo mkdir /pics</code></p>
+<p><code>sudo chmod 777 -R /pics</code></p>
+<p>4. Create shell script and add execute permissions in home directory with following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>cd /pics
+</span></span><span style="display:flex;"><span>feh -ZF -z -D <span style="color:#ae81ff">300</span> --hide-pointer
+</span></span></code></pre></div><p>NOTE:
+Z = auto zoom
+z = randomize
+F = fullscreen
+D = slideshow delay in seconds</p>
+<p><code>chmod 775 /home/&lt;yourusername&gt;/kiosk.sh</code></p>
+<p>5. Install feh utility</p>
+<p><code>sudo dnf install feh</code></p>
+<p>6. In order to use lightdm instead of lxQt, I had to complete this install and config:</p>
+<p><code>sudo systemctl disable sddm.service</code></p>
+<p><code>sudo dnf install lightdm-gtk -y</code></p>
+<p><code>sudo systemctl enable lightdm.service</code></p>
+<p><code>sudo dnf install lightdm-gtk-greeter-settings -y</code></p>
+<p>7. Update /etc/lightdm/lightdm.conf with this in the [Seat:*] section:</p>
+<p><code>xserver-command=X -s 0 –dpms</code></p>
+<p><code>autologin-user=&lt;yourusername&gt;</code></p>
+<p><code>autologin-user-timeout=0</code></p>
+<p>8. Add kiosk.sh shell script to Preferences&gt;Session Settings&gt;Autostart&gt;LxQt Autostart. Be sure to also disable XScreenSaver in this same window. In Session Settings&gt;Basic Settings&gt;LXQt Modules, uncheck Power Management (this ensures Power Management notifications do not pop up).
+An alternative is to create a kiosk.desktop file in <code>/home/&lt;yourusername&gt;/.config/autostart/</code> and add the following to the file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[Desktop Entry]
+</span></span><span style="display:flex;"><span>Exec=/home/&lt;yourusername&gt;/kiosk.sh
+</span></span><span style="display:flex;"><span>Name=kiosk
+</span></span><span style="display:flex;"><span>OnlyShowIn=LXQt;
+</span></span><span style="display:flex;"><span>Type=Application
+</span></span><span style="display:flex;"><span>Version=1.0
+</span></span></code></pre></div><p>9. Reboot</p>
+<p>OPTIONAL: Browse pictures using SAMBA</p>
+<p>1. Install Samba</p>
+<p><code>sudo dnf install samba samba-common -y</code></p>
+<p>2. Make backup of original</p>
+<p><code>sudo cp /etc/samba/smb.conf /etc/samba/smb.bk</code></p>
+<p>3. Edit original file, remove all and add the following</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[global]
+</span></span><span style="display:flex;"><span>map to guest = Bad User
+</span></span><span style="display:flex;"><span>log file = /var/log/samba/%m
+</span></span><span style="display:flex;"><span>log level = 1
+</span></span><span style="display:flex;"><span>server role = standalone server
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[guest]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span># This share allows anonymous (guest) access
+</span></span><span style="display:flex;"><span># without authentication!
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>path = /pics
+</span></span><span style="display:flex;"><span>read only = no
+</span></span><span style="display:flex;"><span>guest ok = yes
+</span></span><span style="display:flex;"><span>guest only = yes
+</span></span></code></pre></div><p>4. Enable and start the service</p>
+<p><code>sudo systemctl enable --now smb.service</code></p>
+<p>This is the outcome in my Fedora 41 LXQt test virtual machine with the slideshow delay set at 5 seonds.</p>
+<figure class="video">
+<video controls preload="auto" width="70%"   >
+<source src="/video/fed_kiosk_vm.mp4" >
+</video>
+</figure>
+
+<p>I also created a bash shell script for Fedora in the event I need to repeat the process on physical hardware.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e"># Script to setup Fedora LXQt as a photo kiosk</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Requirements: Run as user on Fedora LXQt, feh, lightdm-gtk-greeter-settings and lidghtdm-gtk</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># This script will install lightdm-gtk-greeter-settings and lidghtdm-gtk</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Disable SELINUX</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;^^^ Disable selinux? yes or no: ^^^&#34;</span>
+</span></span><span style="display:flex;"><span>read -r SELINUXCHANGE
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$SELINUXCHANGE<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;yes&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span> echo
+</span></span><span style="display:flex;"><span>sudo sed -i <span style="color:#e6db74">&#39;s/SELINUX=enforcing/SELINUX=disabled/g&#39;</span> /etc/selinux/config
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$SELINUXCHANGE<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;no&#34;</span> <span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>read -r <span style="color:#e6db74">&#34;**** Not changing. Hit [Enter] to continue ****&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Disable Firewall</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;^^^ Disable firewall? yes or no: ^^^&#34;</span>
+</span></span><span style="display:flex;"><span>read -r FIREWALLCHANGE
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$FIREWALLCHANGE<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;yes&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>sudo systemctl disable firewalld
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">7</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$FIREWALLCHANGE<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;no&#34;</span> <span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>read -r <span style="color:#e6db74">&#34;**** Not changing. Hit [Enter] to continue ****&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Make your custom picture directory</span>
+</span></span><span style="display:flex;"><span>sudo mkdir /pics
+</span></span><span style="display:flex;"><span>sudo chmod <span style="color:#ae81ff">777</span> -R /pics
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create shell script for running feh</span>
+</span></span><span style="display:flex;"><span>cat <span style="color:#e6db74">&lt;&lt;EOF &gt;&gt; &#34;$HOME/kiosk.sh&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">cd /pics
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">feh -ZF -z -D 300 --hide-pointer
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">EOF</span>
+</span></span><span style="display:flex;"><span>chmod <span style="color:#ae81ff">775</span> <span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/kiosk.sh&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Install feh</span>
+</span></span><span style="display:flex;"><span>sudo dnf install feh -y
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Disable sddm</span>
+</span></span><span style="display:flex;"><span>sudo systemctl disable sddm.service
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Install lightdm packages</span>
+</span></span><span style="display:flex;"><span>sudo dnf install lightdm-gtk lightdm-gtk-greeter-settings -y
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Enable lightdm</span>
+</span></span><span style="display:flex;"><span>sudo systemctl enable lightdm.service
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Update lightdm conf</span>
+</span></span><span style="display:flex;"><span>sudo sed -i <span style="color:#e6db74">&#39;s|#xserver-command=X|xserver-command=X -s 0 -dpms|g&#39;</span> /etc/lightdm/lightdm.conf
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;^^^ Please enter your username: &#34;</span>
+</span></span><span style="display:flex;"><span>read -r NEWUSER
+</span></span><span style="display:flex;"><span>sudo sed -i <span style="color:#e6db74">&#34;s|#autologin-user=|autologin-user=</span><span style="color:#e6db74">${</span>NEWUSER<span style="color:#e6db74">}</span><span style="color:#e6db74">|g&#34;</span> /etc/lightdm/lightdm.conf
+</span></span><span style="display:flex;"><span>sudo sed -i <span style="color:#e6db74">&#39;s|#autologin-user-timeout=0|autologin-user-timeout=0|g&#39;</span> /etc/lightdm/lightdm.conf
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Add kiosk.sh shell script to Preferences&gt;Session Settings&gt;Autostart&gt;LxQt Autostart. Also disable XScreenSaver in this same window.&#34;</span>
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;DON&#39;T FORGET TO ADD YOUR PICTURES TO /pics directory&#34;</span>
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># A choice to reboot or not</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;^^^ Would you like to reboot? yes or no: ^^^&#34;</span>
+</span></span><span style="display:flex;"><span>read -r REBOOTRESPONSE
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$REBOOTRESPONSE<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;yes&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;**** Rebooting ****&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;NOTE: Two reboots may be required for autologin&#34;</span>
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>sudo shutdown -r now
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span>$REBOOTRESPONSE<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;no&#34;</span> <span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>read -p <span style="color:#e6db74">&#34;**** Done with configuration of system. Hit [Enter] to continue ****&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;NOTE: Two reboots may be required for autologin&#34;</span>
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>echo
+</span></span><span style="display:flex;"><span>exit
+</span></span></code></pre></div><p>If you have any questions or comments, please feel free to send me an email noted in my About page.</p>
+
+  
+  <hr>
+<div class="footer">
+    
+	    
+            <a class="previous-post" href="https://www.androidsdream.net/posts/beelink-s12-faulty-network/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>Beelink Mini S12 Faulty Network</a>
+        
+	    
+            <div class="next-post">
+                <a href="https://www.androidsdream.net/posts/linux_101_part_01/?ref=footer"><span style="font-weight:bold;">Next »</span><br>Linux 101 - Part 1</a>
+            </div>
+        
+    
+</div>
+
+  
+</div>
+            </main>
+            
+  
+    <div class="article-toc ">
+    <div class="toc-wrapper">
+      <h4 id="contents"></h4>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#for-debian">For Debian</a></li>
+    <li><a href="#below-are-the-similar-steps-for-fedora">Below are the similar steps for Fedora</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+  
+
+        </div>
+    </body>
+</html>

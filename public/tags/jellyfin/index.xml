@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jellyfin on </title>
+    <link>https://www.androidsdream.net/tags/jellyfin/</link>
+    <description>Recent content in Jellyfin on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jun 2024 06:15:00 -0400</lastBuildDate>
+    <atom:link href="https://www.androidsdream.net/tags/jellyfin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jellyfin and the Beelink Mini S12 Pro</title>
+      <link>https://www.androidsdream.net/posts/jellyfin-and-the-beelink-s12-pro/</link>
+      <pubDate>Fri, 14 Jun 2024 06:15:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/jellyfin-and-the-beelink-s12-pro/</guid>
+      <description>I believe I may have mentioned (but don&amp;rsquo;t fully recall) in a previous post that I was a Plex user for many years. I had it running on my Intel NUC running CentOS then to AlmaLinux then to Red Hat and it worked well without any issues. For the past couple of years or so, I haven&amp;rsquo;t been happy with the direction Plex has been moving, like requiring a &amp;ldquo;cloud&amp;rdquo; account in order to view my own local media.</description>
+    </item>
+  </channel>
+</rss>

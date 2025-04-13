@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on </title>
+    <link>https://www.androidsdream.net/tags/monitoring/</link>
+    <description>Recent content in Monitoring on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Sep 2024 17:30:00 -0400</lastBuildDate>
+    <atom:link href="https://www.androidsdream.net/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Server Monitoring with Cockpit and Landscape</title>
+      <link>https://www.androidsdream.net/posts/home-server-monitoring-with-cockpit-landscape/</link>
+      <pubDate>Wed, 18 Sep 2024 17:30:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/home-server-monitoring-with-cockpit-landscape/</guid>
+      <description>Server monitoring has many levels. From my own personal experience, in the I.T. world as a Systems Administrator, I have used many products for such purposes (e.g. SolarWinds). You can monitor servers for simply their availability status. Or, you can get as detailed as monitoring performance and resource statistics. On my home network, I have tried many solutions from Nagios to Zabbix to Checkmk. All have been solid solutions but, truthfully, a bit of overkill.</description>
+    </item>
+  </channel>
+</rss>

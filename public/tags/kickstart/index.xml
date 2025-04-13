@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kickstart on </title>
+    <link>https://www.androidsdream.net/tags/kickstart/</link>
+    <description>Recent content in Kickstart on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Mar 2024 08:15:45 -0400</lastBuildDate>
+    <atom:link href="https://www.androidsdream.net/tags/kickstart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtual Machine Automated Install</title>
+      <link>https://www.androidsdream.net/posts/virtual-machine-automated-install/</link>
+      <pubDate>Wed, 13 Mar 2024 08:15:45 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/virtual-machine-automated-install/</guid>
+      <description>As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing.</description>
+    </item>
+  </channel>
+</rss>

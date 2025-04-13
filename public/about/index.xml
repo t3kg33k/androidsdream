@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on </title>
+    <link>https://www.androidsdream.net/about/</link>
+    <description>Recent content in About on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.androidsdream.net/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://www.androidsdream.net/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.androidsdream.net/about/about/</guid>
+      <description>The idea behind this site is to post the occasional tech &amp;ldquo;stuff&amp;rdquo; I encounter while working in Linux and my home lab. Hopefully the items I post will be educational to the occasional reader who may find my post beneficial to their tech life.&#xA;I work in the Information Technology field as a Linux Systems Administrator contractor at NASA on the Artemis program. In the past I have worked with IBM and NetApp storage; Dell, HP, IBM, and Lenovo servers; Cisco and Ubiquiti networking; Windows, VMware ESXi, and various Linux operating systems.</description>
+    </item>
+  </channel>
+</rss>

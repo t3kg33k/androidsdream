@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homelab on </title>
+    <link>https://www.androidsdream.net/tags/homelab/</link>
+    <description>Recent content in Homelab on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Mar 2025 19:00:00 -0500</lastBuildDate>
+    <atom:link href="https://www.androidsdream.net/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Network Internet Parental Controls with UniFi Network</title>
+      <link>https://www.androidsdream.net/posts/home-network-internet-parental-controls/</link>
+      <pubDate>Mon, 03 Mar 2025 19:00:00 -0500</pubDate>
+      <guid>https://www.androidsdream.net/posts/home-network-internet-parental-controls/</guid>
+      <description>I have a young child in my home. As she gets older (she&amp;rsquo;s turning 9 years old this month) she has more and more exposure to the internet. For any parent, this is a challenge; I need to keep her safe from malicious content on the internet. I have used Ubiquiti network devices on my LAN for many years and have had no major complaints with their products. However, one thing that really isn’t very clear in their UniFi Network web interface, used to manage all my devices, is that you can manage internet use for a specific client.</description>
+    </item>
+    <item>
+      <title>Fedora &amp; Debian Photo Album Kiosk</title>
+      <link>https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/</link>
+      <pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
+      <guid>https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/</guid>
+      <description>I previously posted about setting up a Raspberry Pi with Raspbian 11 as a photo album kiosk. Since then I wanted to test completing the same setup with Debian and Fedora on an x86 machine, just in case my Raspberry Pi died, or if I decided I needed a faster machine and wanted to use my spare Beelink S12. This a great setup if you have a spare machine and monitor lying around for displaying family photos (again, see previously post to see my example).</description>
+    </item>
+    <item>
+      <title>Minisforum NAB5 New VM Host</title>
+      <link>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</link>
+      <pubDate>Mon, 15 Apr 2024 05:06:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</guid>
+      <description>I found such a good deal on a new computer a few weeks ago that I had to pull the trigger. I had been shopping for an inexpensive mini-PC that I could setup as a new KVM/libvirt virtual machine host to replace my Intel NUC and found the Minisforum Venus Series NAB5 on Newegg on sale for 359 dollars USD. Normally, I purchase used computers on Ebay, most of the time for under 200 dollars USD; the two Lenovo ThinkCentre M700 you see in the diagram below I purchased for less than 100 dollars USD (my leon machine had some roles at one time but have been migrated to other servers).</description>
+    </item>
+    <item>
+      <title>Home Network</title>
+      <link>https://www.androidsdream.net/posts/home-network/</link>
+      <pubDate>Mon, 11 Mar 2024 08:15:45 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/home-network/</guid>
+      <description>Before I move forward with discussing events on my network and any cool new items I discover that I may want to post on this blog, I figure I would give you an idea of what I have setup as of today as a frame of reference. One thing that I have discovered over the years, though, is that my home lab is very dynamic. The visual diagram below depicts a very basic setup of my LAN.</description>
+    </item>
+    <item>
+      <title>Raspberry Pi Kiosk Photo Album</title>
+      <link>https://www.androidsdream.net/posts/raspberry-pi-kiosk/</link>
+      <pubDate>Thu, 15 Feb 2024 08:15:45 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/raspberry-pi-kiosk/</guid>
+      <description>A while back I had purchased an Eyoyo 7 inch mini HDMI monitor to use on my physical servers on my home network. I usually setup headless configuration on my servers but I still need to be able to see what I am doing when I install the operating system (I haven&amp;rsquo;t had the time yet to configure automated install) or troubleshoot an issue. Well the monitor has been sitting on my home office desk, most of the time, doing nothing.</description>
+    </item>
+  </channel>
+</rss>

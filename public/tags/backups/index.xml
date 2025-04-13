@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backups on </title>
+    <link>https://www.androidsdream.net/tags/backups/</link>
+    <description>Recent content in Backups on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Jul 2024 06:00:00 -0400</lastBuildDate>
+    <atom:link href="https://www.androidsdream.net/tags/backups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rclone Google Drive Cloud Backup</title>
+      <link>https://www.androidsdream.net/posts/rclone-google-drive-cloud-backup/</link>
+      <pubDate>Tue, 23 Jul 2024 06:00:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/rclone-google-drive-cloud-backup/</guid>
+      <description>In my backup strategy I have a few tiers of backup for restore scenarios. I have my primary data folder that syncs to my Nextcloud server on my home network using the Nextcloud client. This is so I can sync that same data to multiple devices on my LAN, even while I am off my LAN using my Tailscale network. That Nextcloud instance has a NFS share mounted from my 8TB Synology NAS (one of these days I&amp;rsquo;ll post about my Nextcloud setup).</description>
+    </item>
+  </channel>
+</rss>

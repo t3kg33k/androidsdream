@@ -3,21 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.androidsdream.net/</loc>
-    <lastmod>2025-03-21T05:00:00-05:00</lastmod>
+    <lastmod>2025-05-10T12:16:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/linux/</loc>
+    <lastmod>2025-05-10T12:16:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/posts/linux_101_part_02/</loc>
+    <lastmod>2025-05-10T12:16:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/posts/</loc>
-    <lastmod>2025-03-21T05:00:00-05:00</lastmod>
+    <lastmod>2025-05-10T12:16:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/</loc>
+    <lastmod>2025-05-10T12:16:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/posts/kvm-virtual-machine-template/</loc>
     <lastmod>2025-03-20T11:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://www.androidsdream.net/tags/linux/</loc>
-    <lastmod>2025-03-20T11:00:00-04:00</lastmod>
-  </url><url>
     <loc>https://www.androidsdream.net/tags/shell-script/</loc>
-    <lastmod>2025-03-20T11:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://www.androidsdream.net/tags/</loc>
     <lastmod>2025-03-20T11:00:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/virtualization/</loc>

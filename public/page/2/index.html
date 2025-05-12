@@ -20,13 +20,10 @@
 
 
 
-<script defer language="javascript" type="text/javascript" src="/js/bundle.min.145453261a7755f5042a854c4213501d215a8fbe34c08d181c40f803f1315e74.js"></script>
+<script defer language="javascript" type="text/javascript" src="/js/bundle.min.5991d603939a6d188be342b278a4555db90f163903158c623d2c39fde3d82cb3.js"></script>
 
 
 
-
-
-  
 
 
 
@@ -77,7 +74,7 @@
 <meta property="og:url" content="https://www.androidsdream.net/" />
 
 
-<meta property="og:updated_time" content="2025-03-21T05:00:00-05:00" />
+<meta property="og:updated_time" content="2025-05-10T12:16:00-04:00" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://www.androidsdream.net/sitemap.xml' />
@@ -101,7 +98,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.126.2">
+<meta name="generator" content="Hugo 0.142.0">
 
 
     
@@ -212,6 +209,10 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-virtual-machine-template/">KVM Virtual Machine Template</a>
                             </li>
                         
@@ -225,10 +226,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/">Fedora &amp; Debian Photo Album Kiosk</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/beelink-s12-faulty-network/">Beelink Mini S12 Faulty Network</a>
                             </li>
                         
                     
@@ -383,6 +380,67 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
     <article class="post">
         <div class="info">
   <h1 class="post-title">
+    <a href="https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/">Minisforum NAB5 New VM Host</a>
+  </h1>
+
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2024-04-15T05:06:00-0400" class="post-date">
+        April 15, 2024
+      </time>
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>4 mins read</span>
+      </span>
+    </div>
+
+    
+    <ul class="tags">
+      
+      <li class="tag-Homelab">
+        <a href="https://www.androidsdream.net/tags/homelab">Homelab</a>
+      </li>
+      
+      <li class="tag-Linux">
+        <a href="https://www.androidsdream.net/tags/linux">Linux</a>
+      </li>
+      
+      <li class="tag-Hardware">
+        <a href="https://www.androidsdream.net/tags/hardware">Hardware</a>
+      </li>
+      
+      <li class="tag-Virtualization">
+        <a href="https://www.androidsdream.net/tags/virtualization">Virtualization</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+        
+        <p>I found such a good deal on a new computer a few weeks ago that I had to pull the trigger. I had been shopping for an inexpensive mini-PC that I could setup as a new KVM/libvirt virtual machine host to replace my Intel NUC and found the Minisforum Venus Series NAB5 on Newegg on sale for 359 dollars USD. Normally, I purchase used computers on Ebay, most of the time for under 200 dollars USD; the two Lenovo ThinkCentre M700 you see in the diagram below I purchased for less than 100 dollars USD (my leon machine had some roles at one time but have been migrated to other servers). My Intel NUC is just getting too old and doesn&rsquo;t have the required resources I need for virtual machines, that was the main reason I purchased something new that had more resources.</p>
+        
+        <div class="read-more-link">
+            <a href="/posts/minisforum-nab5-new-vm-host/">Read More…</a>
+        </div>
+        
+        
+    </article>
+    <article class="post">
+        <div class="info">
+  <h1 class="post-title">
     <a href="https://www.androidsdream.net/posts/ghost-blogging-busting/">Ghost Blogging Busting</a>
   </h1>
 
@@ -421,7 +479,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </div>
 
         
-        I moved from Ghost blogging plaform self-hosted on one of my servers at home using a Docker compose file to the simplified use of a static site generator that is Hugo. There was quite a bit of a learning curve being that I am not a developer but YouTube and other resources on the internet were instrumental in helping me set everything up. Now, I just have Hugo installed on my Fedora workstation and a RHEL 8 web server for posting all the files that Hugo generates.
+        <p>I moved from Ghost blogging plaform self-hosted on one of my servers at home using a Docker compose file to the simplified use of a static site generator that is <a href="https://gohugo.io/" target="_blank">Hugo</a>. There was quite a bit of a learning curve being that I am not a developer but YouTube and other resources on the internet were instrumental in helping me set everything up. Now, I just have Hugo installed on my Fedora workstation and a RHEL 8 web server for posting all the files that Hugo generates.</p>
         
         <div class="read-more-link">
             <a href="/posts/ghost-blogging-busting/">Read More…</a>
@@ -470,8 +528,9 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </div>
 
         
-        I just discovered the Ghost CMS (this blogging platform) automatically comes with an rss feed to plug into your favorite feed reader. Here it is: https://www.androidsdream.net/rss/
-EDIT - 04/01/2024: Since moving from Ghost to Hugo, this site&rsquo;s rss link is different now than from what it used to be on Ghost. You can now find an icon in the left panel for the link.
+        <p><img src="/images/RSS.png" alt="RSS">
+<del>I just discovered the Ghost CMS (this blogging platform) automatically comes with an rss feed to plug into your favorite feed reader. Here it is: <a href="https://www.androidsdream.net/rss/" target="_blank">https://www.androidsdream.net/rss/</a></del></p>
+<p>EDIT - 04/01/2024: Since moving from Ghost to Hugo, <a href="https://www.androidsdream.net/posts/index.xml" target="_blank">this site&rsquo;s rss link</a> is different now than from what it used to be on Ghost. You can now find an icon in the left panel for the link.</p>
         
         
     </article>
@@ -520,7 +579,8 @@ EDIT - 04/01/2024: Since moving from Ghost to Hugo, this site&rsquo;s rss link i
 </div>
 
         
-        As mentioned in last post when I complete a server install of either Red Hat or AlmaLinux, I have a post install shell script that completes some configuration setups. Hopefully someday I will get to writing an Ansible playbook to complete the same steps instead of using the shell script. I already have an Ansible playbook that configures my Fedora desktop and laptop when I complete a fresh install (I&rsquo;ll share in a later post) so it&rsquo;s just a matter of completing some of the same steps in the server Ansible playbook.
+        <p><img src="/images/terminal-script.png" alt="Terminal script">
+As mentioned in <a href="https://www.androidsdream.net/posts/virtual-machine-automated-install/" target="_blank">last post</a> when I complete a server install of either Red Hat or AlmaLinux, I have a post install shell script that completes some configuration setups. Hopefully someday I will get to writing an Ansible playbook to complete the same steps instead of using the shell script. I already have an Ansible playbook that configures my Fedora desktop and laptop when I complete a fresh install (I&rsquo;ll share in a later post) so it&rsquo;s just a matter of completing some of the same steps in the server Ansible playbook.</p>
         
         <div class="read-more-link">
             <a href="/posts/server-install-post-configuration/">Read More…</a>
@@ -581,7 +641,8 @@ EDIT - 04/01/2024: Since moving from Ghost to Hugo, this site&rsquo;s rss link i
 </div>
 
         
-        As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing.
+        <p><img src="/images/terminal.png" alt="terminal">
+As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing. As you may have also seen in my previous post is that I prefer the Linux operating system. There was a time that I used CentOS, but then that changed to AlmaLinux (for reasons, if you know the history of CentOS). However, when I found out that one can sign up for a Red Hat Developer account (<a href="https://developers.redhat.com/products/rhel/download" target="_blank">https://developers.redhat.com/products/rhel/download</a>) that allows for 16 free RHEL subscriptions, that settled the move from AlmaLinux to Red Hat. I use and support Red Hat in my day job, so why not use it at home too, was my thought. Don&rsquo;t get me wrong about AlmaLinux. I love that operating system and consider it to be the best alternative to Red Hat.</p>
         
         <div class="read-more-link">
             <a href="/posts/virtual-machine-automated-install/">Read More…</a>
@@ -630,7 +691,8 @@ EDIT - 04/01/2024: Since moving from Ghost to Hugo, this site&rsquo;s rss link i
 </div>
 
         
-        Before I move forward with discussing events on my network and any cool new items I discover that I may want to post on this blog, I figure I would give you an idea of what I have setup as of today as a frame of reference. One thing that I have discovered over the years, though, is that my home lab is very dynamic. The visual diagram below depicts a very basic setup of my LAN.
+        <p>Before I move forward with discussing events on my network and any cool new items I discover that I may want to post on this blog, I figure I would give you an idea of what I have setup as of today as a frame of reference. One thing that I have discovered over the years, though, is that my home lab is very dynamic.
+The visual diagram below depicts a very basic setup of my LAN. A few things it does not display is the separate (segmented) VLAN I have setup for all my IoT devices, a number of wireless devices that I have on my default VLAN (Roku, smartphones, tablets, printers, etc.) and the <a href="https://tailscale.com/" target="_blank">Tailscale</a> network running on some of my nodes. In regards to the Tailscale network, just know that a few of the devices displayed below have services running that are only available on my Tailscale network (e.g. Nextcloud, Rustdesk). I am sure there is room for improvement and there are probably a few things I am doing wrong. But I am learning something new almost every day and that is why I find my LAN can be so dynamic.</p>
         
         <div class="read-more-link">
             <a href="/posts/home-network/">Read More…</a>
@@ -691,7 +753,8 @@ EDIT - 04/01/2024: Since moving from Ghost to Hugo, this site&rsquo;s rss link i
 </div>
 
         
-        A while back I had purchased an Eyoyo 7 inch mini HDMI monitor to use on my physical servers on my home network. I usually setup headless configuration on my servers but I still need to be able to see what I am doing when I install the operating system (I haven&rsquo;t had the time yet to configure automated install) or troubleshoot an issue. Well the monitor has been sitting on my home office desk, most of the time, doing nothing.
+        <p><img src="/images/rasppi-kiosk.jpg" alt="Raspberry Pi 3">
+A while back I had purchased an <a href="https://a.co/d/1VzMgkl" target="_blank">Eyoyo 7 inch mini HDMI monitor</a> to use on my physical servers on my home network. I usually setup headless configuration on my servers but I still need to be able to see what I am doing when I install the operating system (I haven&rsquo;t had the time yet to configure automated install) or troubleshoot an issue. Well the monitor has been sitting on my home office desk, most of the time, doing nothing. I also had a Raspberry Pi 3 sitting around doing nothing so I decided it was time to setup a makeshift photo frame for my desk. I ended up following the usual guides found everywhere for configuring Raspberry Pi OS in kiosk mode and partially how to setup the feh utility for the image viewer in this <a href="https://pimylifeup.com/raspberry-pi-photo-frame/" target="_blank">guide</a>. In the article I followed the steps to disable screen blanking. I figured out, though, that I needed to add the following:</p>
         
         <div class="read-more-link">
             <a href="/posts/raspberry-pi-kiosk/">Read More…</a>
@@ -740,7 +803,7 @@ EDIT - 04/01/2024: Since moving from Ghost to Hugo, this site&rsquo;s rss link i
 </div>
 
         
-        If you&rsquo;re here and haven&rsquo;t read my About page yet, you should expect post on this site will mostly be focused on technology, most of it probably Linux related, my passion. I can&rsquo;t guarantee that there will be frequent post, but I will try to fit one in every now and then outside of school (currently working on my B.S. in I.T.) and family time.
+        <p>If you&rsquo;re here and haven&rsquo;t read my About page yet, you should expect post on this site will mostly be focused on technology, most of it probably Linux related, my passion. I can&rsquo;t guarantee that there will be frequent post, but I will try to fit one in every now and then outside of school (currently working on my B.S. in I.T.) and family time.</p>
         
         
     </article>

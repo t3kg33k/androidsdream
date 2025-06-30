@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podman on </title>
+    <link>https://www.androidsdream.net/tags/podman/</link>
+    <description>Recent content in Podman on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jun 2025 05:46:00 -0400</lastBuildDate>
+    <atom:link href="https://www.androidsdream.net/tags/podman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podman Rootless Container Start on Boot</title>
+      <link>https://www.androidsdream.net/posts/podman-container-start-on-boot/</link>
+      <pubDate>Wed, 04 Jun 2025 05:46:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/podman-container-start-on-boot/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.androidsdream.net/images/podman-logo.png&#34; alt=&#34;Podman&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been a Docker user for years. I&amp;rsquo;ve never been an expert, I&amp;rsquo;ve only used it enough to get by in deploying Containers on my home lab for self-hosting services. Recently, I decided it was time to use Podman instead of Docker just so I could learn the differences. The major differences, as I understand it, is that Podman is more secure due to the ability of deploying a rootless container. So, I setup a new virtual machine running AlmaLinux 9, installed all the Podman packages and proceeded with, first, setting up Homarr dashboard using a Docker compose file. I deployed it as usual; this time using the &lt;em&gt;podman-compose&lt;/em&gt; command instead of &lt;em&gt;docker-compose&lt;/em&gt; using a standard non-root user. From there, I decided to migrate a couple of other containers (Freshrss and flatnote) from a different machine where they had been running as a Docker container to the new virtual machine running Podman and they all started up nicely. What I had found, so far, is that most things translate easily from Docker to Podman. Fair enough, easy enough.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

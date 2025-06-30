@@ -74,7 +74,7 @@
 <meta property="og:url" content="https://www.androidsdream.net/" />
 
 
-<meta property="og:updated_time" content="2025-05-10T12:16:00-04:00" />
+<meta property="og:updated_time" content="2025-06-04T05:46:00-04:00" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://www.androidsdream.net/sitemap.xml' />
@@ -209,6 +209,10 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
@@ -224,15 +228,15 @@
                                 <a href="https://www.androidsdream.net/posts/linux_101_part_01/">Linux 101 - Part 1</a>
                             </li>
                         
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/">Fedora &amp; Debian Photo Album Kiosk</a>
-                            </li>
-                        
                     
                 
             
             
                 
+                
+                        
+                
+                        
                 
                         
                 
@@ -285,6 +289,10 @@
             
             
                 
+                
+                        
+                
+                        
                 
                         
                 
@@ -377,6 +385,68 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
                 <div class="posts">
     
     
+    <article class="post">
+        <div class="info">
+  <h1 class="post-title">
+    <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
+  </h1>
+
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2025-06-04T05:46:00-0400" class="post-date">
+        June 4, 2025
+      </time>
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>3 mins read</span>
+      </span>
+    </div>
+
+    
+    <ul class="tags">
+      
+      <li class="tag-Linux">
+        <a href="https://www.androidsdream.net/tags/linux">Linux</a>
+      </li>
+      
+      <li class="tag-Podman">
+        <a href="https://www.androidsdream.net/tags/podman">Podman</a>
+      </li>
+      
+      <li class="tag-Containers">
+        <a href="https://www.androidsdream.net/tags/containers">Containers</a>
+      </li>
+      
+      <li class="tag-Homelab">
+        <a href="https://www.androidsdream.net/tags/homelab">Homelab</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+        
+        <p><img src="/images/podman-logo.png" alt="Podman"></p>
+<p>I&rsquo;ve been a Docker user for years. I&rsquo;ve never been an expert, I&rsquo;ve only used it enough to get by in deploying Containers on my home lab for self-hosting services. Recently, I decided it was time to use Podman instead of Docker just so I could learn the differences. The major differences, as I understand it, is that Podman is more secure due to the ability of deploying a rootless container. So, I setup a new virtual machine running AlmaLinux 9, installed all the Podman packages and proceeded with, first, setting up Homarr dashboard using a Docker compose file. I deployed it as usual; this time using the <em>podman-compose</em> command instead of <em>docker-compose</em> using a standard non-root user. From there, I decided to migrate a couple of other containers (Freshrss and flatnote) from a different machine where they had been running as a Docker container to the new virtual machine running Podman and they all started up nicely. What I had found, so far, is that most things translate easily from Docker to Podman. Fair enough, easy enough.</p>
+        
+        <div class="read-more-link">
+            <a href="/posts/podman-container-start-on-boot/">Read More…</a>
+        </div>
+        
+        
+    </article>
     <article class="post">
         <div class="info">
   <h1 class="post-title">
@@ -882,60 +952,6 @@ Fast forward to my discovery of a fellow <a href="https://www.jupiterbroadcastin
         
         <div class="read-more-link">
             <a href="/posts/jellyfin-and-the-beelink-s12-pro/">Read More…</a>
-        </div>
-        
-        
-    </article>
-    <article class="post">
-        <div class="info">
-  <h1 class="post-title">
-    <a href="https://www.androidsdream.net/posts/new-pc-build/">New PC Build</a>
-  </h1>
-
-  <div class="headline">
-    <div>
-      
-      <time datetime=" 2024-05-23T05:30:00-0400" class="post-date">
-        May 23, 2024
-      </time>
-      
-      <span> - </span>
-      <span class="reading-time">
-        
-          
-        
-
-        <span>6 mins read</span>
-      </span>
-    </div>
-
-    
-    <ul class="tags">
-      
-      <li class="tag-Hardware">
-        <a href="https://www.androidsdream.net/tags/hardware">Hardware</a>
-      </li>
-      
-      <li class="tag-Ansible">
-        <a href="https://www.androidsdream.net/tags/ansible">Ansible</a>
-      </li>
-      
-    </ul>
-    
-  </div>
-
-  
-  
-
-  
-</div>
-
-        
-        <p>Finally, after using the same PC build for 9 years, I have built a new desktop PC. Thanks to the community members over at Tom&rsquo;s Hardware forum, I puchased the parts from this list (as of 05/2024): <a href="https://pcpartpicker.com/user/t3kg33k_og/saved/#view=zpXWrH" target="_blank">https://pcpartpicker.com/user/t3kg33k_og/saved/#view=zpXWrH</a></p>
-<p>Even though I am an avid Linux fan, I had no choice but to install Windows 11 because there is one game that I play regulary (when I have the time), and have played for a very long time, that will not work in Steam&rsquo;s ProtonDB is Insurgency: Sandstorm due to the anti-cheat software it uses is only compatible in Windows. For all my other games on Steam, and as my daily driver, I use Fedora Plasma in a dual-boot configuration.</p>
-        
-        <div class="read-more-link">
-            <a href="/posts/new-pc-build/">Read More…</a>
         </div>
         
         

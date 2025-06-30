@@ -3,18 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.androidsdream.net/</loc>
-    <lastmod>2025-05-10T12:16:00-04:00</lastmod>
+    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/containers/</loc>
+    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/homelab/</loc>
+    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/linux/</loc>
-    <lastmod>2025-05-10T12:16:00-04:00</lastmod>
+    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
   </url><url>
-    <loc>https://www.androidsdream.net/posts/linux_101_part_02/</loc>
-    <lastmod>2025-05-10T12:16:00-04:00</lastmod>
+    <loc>https://www.androidsdream.net/tags/podman/</loc>
+    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/posts/podman-container-start-on-boot/</loc>
+    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/posts/</loc>
-    <lastmod>2025-05-10T12:16:00-04:00</lastmod>
+    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/</loc>
+    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/posts/linux_101_part_02/</loc>
     <lastmod>2025-05-10T12:16:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/posts/kvm-virtual-machine-template/</loc>
@@ -27,9 +39,6 @@
     <lastmod>2025-03-20T11:00:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/posts/home-network-internet-parental-controls/</loc>
-    <lastmod>2025-03-03T19:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://www.androidsdream.net/tags/homelab/</loc>
     <lastmod>2025-03-03T19:00:00-05:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/ubiquiti/</loc>

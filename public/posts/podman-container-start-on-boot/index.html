@@ -445,7 +445,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </span></span><span style="display:flex;"><span>It is recommended to use Quadlets for running containers and pods under systemd.
 </span></span></code></pre></div><p>Of course, this required further research on Quadlets. To keep this blog post short, after numerous articles and blog post, time and again, I discovered that most were creating a systemd file for each container. To me, that seemed ineffecient. Finally, I discovered a forum post (I believe it was the Bazzite forum) in which someone created a systemd file that started all containers at boot. During my own trial and error of creating the file named <em>podman-restart.service</em>, this is what I came up with, based on that user&rsquo;s file, that seems to be working just fine once I placed it in my users home directory in /home/user/.config/systemd/user/:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>[<span style="color:#ae81ff">Unit]</span>
-</span></span><span style="display:flex;"><span><span style="color:#ae81ff">Description=Podman Start All Containers With Restart Policy Set To Always</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">Description=Podman Start All Containers</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">StartLimitIntervalSec=0</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">Wants=network-online.target</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">After=network-online.target</span>

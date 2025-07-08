@@ -26,7 +26,7 @@ Of course, this required further research on Quadlets. To keep this blog post sh
 
 ```yaml
 [Unit]
-Description=Podman Start All Containers With Restart Policy Set To Always
+Description=Podman Start All Containers
 StartLimitIntervalSec=0
 Wants=network-online.target
 After=network-online.target

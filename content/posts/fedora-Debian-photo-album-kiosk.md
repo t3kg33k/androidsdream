@@ -2,7 +2,7 @@
 title = "Fedora & Debian Photo Album Kiosk"
 date = 2024-11-07T15:30:00-05:00
 draft = false
-tags = ["Linux","Fedora","Debian","Shell script","Hardware","Homelab"]
+tags = ["Linux","Fedora","Debian","Shell script","Hardware","Homelab","Kiosk"]
 +++
 
 I [previously posted](https://www.androidsdream.net/posts/raspberry-pi-kiosk/) about setting up a Raspberry Pi with Raspbian 11 as a photo album kiosk. Since then I wanted to test completing the same setup with Debian and Fedora on an x86 machine, just in case my Raspberry Pi died, or if I decided I needed a faster machine and wanted to use my spare Beelink S12. This a great setup if you have a spare machine and monitor lying around for displaying family photos (again, see previously post to see my example). Well, in testing on a virtual machine I came up with these basic steps below.

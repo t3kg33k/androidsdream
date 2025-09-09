@@ -2,7 +2,7 @@
 title = "Virtual Machine Automated Install"
 date = 2024-03-13T08:15:45-04:00
 draft = false
-tags = ["Linux","Virtualization","Shell script","Kickstart"]
+tags = ["Linux","Virtualization","Shell script","Kickstart","Red Hat","AlmaLinux"]
 +++
 ![terminal](/images/terminal.png)
 As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing. As you may have also seen in my previous post is that I prefer the Linux operating system. There was a time that I used CentOS, but then that changed to AlmaLinux (for reasons, if you know the history of CentOS). However, when I found out that one can sign up for a Red Hat Developer account (<https://developers.redhat.com/products/rhel/download>) that allows for 16 free RHEL subscriptions, that settled the move from AlmaLinux to Red Hat. I use and support Red Hat in my day job, so why not use it at home too, was my thought. Don't get me wrong about AlmaLinux. I love that operating system and consider it to be the best alternative to Red Hat.

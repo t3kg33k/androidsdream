@@ -2,7 +2,7 @@
 title = "Podman Rootless Container Start on Boot"
 date = 2025-06-04T05:46:00-04:00
 draft = false
-tags = ["Linux","Podman","Containers","Homelab"]
+tags = ["Linux","Podman","Containers","Homelab","AlmaLinux"]
 +++
 ![Podman](/images/podman-logo.png)
 

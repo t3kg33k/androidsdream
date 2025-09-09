@@ -2,7 +2,7 @@
 title = "KVM Virtual Machine Template"
 date = 2025-03-20T11:00:00-04:00
 draft = false
-tags = ["Linux","Virtualization","Shell script"]
+tags = ["Linux","Virtualization","Shell script","AlmaLinux","Red Hat"]
 +++
 ![terminal](/images/KVM-logo.png)
 

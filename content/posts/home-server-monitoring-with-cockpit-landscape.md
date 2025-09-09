@@ -2,7 +2,7 @@
 title = "Home Server Monitoring with Cockpit and Landscape"
 date = 2024-09-18T17:30:00-04:00
 draft = false
-tags = ["Linux","monitoring"]
+tags = ["Linux","monitoring","Red Hat","Ubuntu Server"]
 +++
 Server monitoring has many levels. From my own personal experience, in the I.T. world as a Systems Administrator, I have used many products for such purposes (e.g. SolarWinds). You can monitor servers for simply their availability status. Or, you can get as detailed as monitoring performance and resource statistics. On my home network, I have tried many solutions from Nagios to Zabbix to Checkmk. All have been solid solutions but, truthfully, a bit of overkill. At the moment, the most basic monitoring I have in place is Uptime Kuma internally that sends notifications to Discord if a server goes down. Externally, since I self-host my own web server (here), I use the free version of UptimeRobot for up time with notifications straight to my email.
 

@@ -2,7 +2,7 @@
 title = "Server Install Post-Configuration"
 date = 2024-03-20T08:15:45-04:00
 draft = false
-tags = ["Linux","Shell script"]
+tags = ["Linux","Shell script","Red Hat","AlmaLinux"]
 +++
 ![Terminal script](/images/terminal-script.png)
 As mentioned in [last post](https://www.androidsdream.net/posts/virtual-machine-automated-install/) when I complete a server install of either Red Hat or AlmaLinux, I have a post install shell script that completes some configuration setups. Hopefully someday I will get to writing an Ansible playbook to complete the same steps instead of using the shell script. I already have an Ansible playbook that configures my Fedora desktop and laptop when I complete a fresh install (I'll share in a later post) so it's just a matter of completing some of the same steps in the server Ansible playbook.

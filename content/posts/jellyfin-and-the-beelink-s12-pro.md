@@ -2,7 +2,7 @@
 title = "Jellyfin and the Beelink Mini S12 Pro"
 date = 2024-06-14T06:15:00-04:00
 draft = false
-tags = ["Linux","Hardware","Jellyfin"]
+tags = ["Linux","Hardware","Jellyfin","AlmaLinux","Red Hat","Ubuntu Server"]
 +++
 ![Beelink S12 Pro](/images/beelink_s12_pro.jpg)
 

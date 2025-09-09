@@ -74,7 +74,7 @@
 <meta property="og:url" content="https://www.androidsdream.net/" />
 
 
-<meta property="og:updated_time" content="2025-06-04T05:46:00-04:00" />
+<meta property="og:updated_time" content="2025-09-09T06:00:00-04:00" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://www.androidsdream.net/sitemap.xml' />
@@ -209,6 +209,10 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
                             </li>
                         
@@ -224,15 +228,21 @@
                                 <a href="https://www.androidsdream.net/posts/home-network-internet-parental-controls/">Home Network Internet Parental Controls with UniFi Network</a>
                             </li>
                         
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_01/">Linux 101 - Part 1</a>
-                            </li>
-                        
                     
                 
             
             
                 
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
                 
                         
                 
@@ -289,6 +299,16 @@
             
             
                 
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
                 
                         
                 
@@ -385,6 +405,76 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
                 <div class="posts">
     
     
+    <article class="post">
+        <div class="info">
+  <h1 class="post-title">
+    <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
+  </h1>
+
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2025-09-09T06:00:00-0400" class="post-date">
+        September 9, 2025
+      </time>
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>2 mins read</span>
+      </span>
+    </div>
+
+    
+    <ul class="tags">
+      
+      <li class="tag-Hugo">
+        <a href="https://www.androidsdream.net/tags/hugo">Hugo</a>
+      </li>
+      
+      <li class="tag-Red Hat">
+        <a href="https://www.androidsdream.net/tags/red-hat">Red Hat</a>
+      </li>
+      
+      <li class="tag-Netlify">
+        <a href="https://www.androidsdream.net/tags/netlify">Netlify</a>
+      </li>
+      
+      <li class="tag-Homelab">
+        <a href="https://www.androidsdream.net/tags/homelab">Homelab</a>
+      </li>
+      
+      <li class="tag-Git">
+        <a href="https://www.androidsdream.net/tags/git">Git</a>
+      </li>
+      
+      <li class="tag-Bitbucket">
+        <a href="https://www.androidsdream.net/tags/bitbucket">Bitbucket</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+        
+        <p>Well, it&rsquo;s been a while since I have posted. I realized today that I never posted my transition of moving my self-hosted <a href="https://gohugo.io/" target="_blank">Hugo</a> generated web site from a Red Hat virtual web server on my homelab to the free-tier hosting on <a href="https://www.netlify.com/" target="_blank">Netlify</a>. This also included finally learning the basics of <a href="https://git-scm.com/" target="_blank">Git</a> and using a remote Git repository in <a href="https://bitbucket.org" target="_blank">Bitbucket</a>.</p>
+<p>It was a surprisingly easy transition, moving from my local server to Netlify. I think the most difficult part, for me, was learning how to get my local Git repo where my Hugo files existed to Bitbucket. I&rsquo;m not a developer and anything code related, even if it is the simple use of Git, is a bit of a learning hurdle for me. I simply followed the steps from <a href="https://gohugo.io/host-and-deploy/host-on-netlify/" target="_blank">this site</a>, and other resources from my web search, changed the DNS on my domain from my local WAN IP address to point at Netlify&rsquo;s, and all was working. I was really surprised how easy it was to migrate. The only difference was I have a different and simplier netlify.toml config than what I found on the site referenced above. Mine looks like this:</p>
+        
+        <div class="read-more-link">
+            <a href="/posts/hugo-site-on-netlify/">Read More…</a>
+        </div>
+        
+        
+    </article>
     <article class="post">
         <div class="info">
   <h1 class="post-title">
@@ -893,65 +983,6 @@ I love Linux. I am passionate about Linux. I am a Linux geek. I think I have sta
         
         <div class="read-more-link">
             <a href="/posts/rclone-google-drive-cloud-backup/">Read More…</a>
-        </div>
-        
-        
-    </article>
-    <article class="post">
-        <div class="info">
-  <h1 class="post-title">
-    <a href="https://www.androidsdream.net/posts/jellyfin-and-the-beelink-s12-pro/">Jellyfin and the Beelink Mini S12 Pro</a>
-  </h1>
-
-  <div class="headline">
-    <div>
-      
-      <time datetime=" 2024-06-14T06:15:00-0400" class="post-date">
-        June 14, 2024
-      </time>
-      
-      <span> - </span>
-      <span class="reading-time">
-        
-          
-        
-
-        <span>3 mins read</span>
-      </span>
-    </div>
-
-    
-    <ul class="tags">
-      
-      <li class="tag-Linux">
-        <a href="https://www.androidsdream.net/tags/linux">Linux</a>
-      </li>
-      
-      <li class="tag-Hardware">
-        <a href="https://www.androidsdream.net/tags/hardware">Hardware</a>
-      </li>
-      
-      <li class="tag-Jellyfin">
-        <a href="https://www.androidsdream.net/tags/jellyfin">Jellyfin</a>
-      </li>
-      
-    </ul>
-    
-  </div>
-
-  
-  
-
-  
-</div>
-
-        
-        <p><img src="/images/beelink_s12_pro.jpg" alt="Beelink S12 Pro"></p>
-<p>I believe I may have mentioned (but don&rsquo;t fully recall) in a previous post that I was a Plex user for many years. I had it running on my Intel NUC running CentOS then to AlmaLinux then to Red Hat and it worked well without any issues. For the past couple of years or so, I haven&rsquo;t been happy with the direction Plex has been moving, like requiring a &ldquo;cloud&rdquo; account in order to view my own local media. Also, adding stuff like Live TV and other membership functions that I don&rsquo;t care about. I just needed something that served up my local media for me to play on all my Roku devices on my LAN. I had tested and played around with Jellyfin about a year ago but I didn&rsquo;t have a very good experience with it then. Well, over the past few months I decided to give it another chance. When I setup the Minisforum NAB5 (mentioned in <a href="https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/" target="_blank">previous post</a>), I installed Jellyfin and ran with it for a while. Well, while viewing some high definition movies, I was noticing some crashes of Jellyfin and large skips to a different time frame. Through troubleshooting and research, I discovered that the use of Red Hat 8 on my Minisforum lacked some features that Jellyfin required (e.g. Jellyfin&rsquo;s version of ffmeg) for proper transcoding. If I had done more research ahead of time by reading Jellyfin&rsquo;s own <a href="https://jellyfin.org/docs/" target="_blank">documentation</a> before setting up Jellyfin on Red Hat I would have read that their configuration works better with Ubuntu.
-Fast forward to my discovery of a fellow <a href="https://www.jupiterbroadcasting.com/show/linux-unplugged/" target="_blank">Jupiter Broadcasting Linux Unplugged</a> podcast listener (412Linux) posting on <a href="https://412linux.io/article/beelinks12pro-performance/" target="_blank">his experiences</a> with the <a href="https://www.bee-link.com/collections/mini-pc/products/beelink-minis-12-pro-intel-n100-processor" target="_blank">Beelink Mini S12 Pro</a> and then taking note of how inexpensive that device is on Amazon for less than 200 USD, I decided to purchase the 16GB RAM/500GB storage version for 180 USD. I&rsquo;ve since installed Ubuntu 24.04 Server, installed and configured Jellyfin based on Jellyfin&rsquo;s extensive documentation making sure to install the <em>intel-opencl-icd</em> and <em>intel-gpu-tools</em> package from Ubuntu&rsquo;s repository.</p>
-        
-        <div class="read-more-link">
-            <a href="/posts/jellyfin-and-the-beelink-s12-pro/">Read More…</a>
         </div>
         
         

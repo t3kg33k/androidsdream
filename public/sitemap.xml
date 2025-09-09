@@ -3,12 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.androidsdream.net/</loc>
-    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://www.androidsdream.net/tags/containers/</loc>
-    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
+    <loc>https://www.androidsdream.net/tags/bitbucket/</loc>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/git/</loc>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/homelab/</loc>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/hugo/</loc>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/posts/hugo-site-on-netlify/</loc>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/netlify/</loc>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/posts/</loc>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/red-hat/</loc>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/</loc>
+    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/containers/</loc>
     <lastmod>2025-06-04T05:46:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/linux/</loc>
@@ -18,12 +42,6 @@
     <lastmod>2025-06-04T05:46:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/posts/podman-container-start-on-boot/</loc>
-    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
-  </url><url>
-    <loc>https://www.androidsdream.net/posts/</loc>
-    <lastmod>2025-06-04T05:46:00-04:00</lastmod>
-  </url><url>
-    <loc>https://www.androidsdream.net/tags/</loc>
     <lastmod>2025-06-04T05:46:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/posts/linux_101_part_02/</loc>

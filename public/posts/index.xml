@@ -6,8 +6,15 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jun 2025 05:46:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 06:00:00 -0400</lastBuildDate>
     <atom:link href="https://www.androidsdream.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Site on Netlify</title>
+      <link>https://www.androidsdream.net/posts/hugo-site-on-netlify/</link>
+      <pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/hugo-site-on-netlify/</guid>
+      <description>&lt;p&gt;Well, it&amp;rsquo;s been a while since I have posted. I realized today that I never posted my transition of moving my self-hosted &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; generated web site from a Red Hat virtual web server on my homelab to the free-tier hosting on &lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34;&gt;Netlify&lt;/a&gt;. This also included finally learning the basics of &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; and using a remote Git repository in &lt;a href=&#34;https://bitbucket.org&#34; target=&#34;_blank&#34;&gt;Bitbucket&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It was a surprisingly easy transition, moving from my local server to Netlify. I think the most difficult part, for me, was learning how to get my local Git repo where my Hugo files existed to Bitbucket. I&amp;rsquo;m not a developer and anything code related, even if it is the simple use of Git, is a bit of a learning hurdle for me. I simply followed the steps from &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-netlify/&#34; target=&#34;_blank&#34;&gt;this site&lt;/a&gt;, and other resources from my web search, changed the DNS on my domain from my local WAN IP address to point at Netlify&amp;rsquo;s, and all was working. I was really surprised how easy it was to migrate. The only difference was I have a different and simplier netlify.toml config than what I found on the site referenced above. Mine looks like this:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Podman Rootless Container Start on Boot</title>
       <link>https://www.androidsdream.net/posts/podman-container-start-on-boot/</link>

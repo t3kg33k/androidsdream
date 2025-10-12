@@ -8,7 +8,7 @@ tags = ["Linux","AWS","web server","Hugo","Let's Encrypt"]
 I started a project that I wanted to test to see if I could do it; mainly for a domain I have owned for many years that is currently not being used, [edwardcrosby.com](https://edwardcrosby.com). The idea was to use the free tier version of an AWS EC2 instance (free for only the first year) in their version of a Fedora Server virtual machine called Amazon Linux 2023. I setup that server and then completed the following.
 
 ***NOTE:** If you’re curious on how to setup an AWS EC2 instance, there is a ton of documentation, both on user blogs and on Amazon’s own documentation site, on how to do it.
-These are the steps on setting a web server and using Certbot to generate and manage the Let’s Encrypt SSL cert:
+These are the steps on setting up a web server and using Certbot to generate and manage the Let’s Encrypt SSL cert:
 
 ****NOTES:** My steps were based on this article from [Amazon’s documentation](https://repost.aws/articles/AR_doGU0cxQymwf5A1Gl97yA/use-certbot-to-enable-https-with-apache-or-nginx-on-ec2-instances-running-amazon-linux-2023-al2023).
  The following steps assume a domain has been purchased and DNS hostname (A record) is pointing to the AWS EC2 instance public IP address.

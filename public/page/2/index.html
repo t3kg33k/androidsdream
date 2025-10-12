@@ -74,7 +74,7 @@
 <meta property="og:url" content="https://www.androidsdream.net/" />
 
 
-<meta property="og:updated_time" content="2025-09-09T06:00:00-04:00" />
+<meta property="og:updated_time" content="2025-10-12T08:15:00-04:00" />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href='https://www.androidsdream.net/sitemap.xml' />
@@ -209,6 +209,10 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/aws-ec2-web-server-letsencrypt/">AWS EC2 Web Server And Let&#39;s Encrypt</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
                             </li>
                         
@@ -224,15 +228,17 @@
                                 <a href="https://www.androidsdream.net/posts/kvm-virtual-machine-template/">KVM Virtual Machine Template</a>
                             </li>
                         
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/home-network-internet-parental-controls/">Home Network Internet Parental Controls with UniFi Network</a>
-                            </li>
-                        
                     
                 
             
             
                 
+                
+                        
+                
+                        
+                
+                        
                 
                         
                 
@@ -358,6 +364,12 @@
                 
                         
                 
+                        
+                
+                        
+                
+                        
+                
             
         
 
@@ -417,6 +429,63 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
                 <div class="posts">
     
     
+    <article class="post">
+        <div class="info">
+  <h1 class="post-title">
+    <a href="https://www.androidsdream.net/posts/rclone-google-drive-cloud-backup/">rclone Google Drive Cloud Backup</a>
+  </h1>
+
+  <div class="headline">
+    <div>
+      
+      <time datetime=" 2024-07-23T06:00:00-0400" class="post-date">
+        July 23, 2024
+      </time>
+      
+      <span> - </span>
+      <span class="reading-time">
+        
+          
+        
+
+        <span>3 mins read</span>
+      </span>
+    </div>
+
+    
+    <ul class="tags">
+      
+      <li class="tag-Linux">
+        <a href="https://www.androidsdream.net/tags/linux">Linux</a>
+      </li>
+      
+      <li class="tag-rclone">
+        <a href="https://www.androidsdream.net/tags/rclone">rclone</a>
+      </li>
+      
+      <li class="tag-Backups">
+        <a href="https://www.androidsdream.net/tags/backups">Backups</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+
+  
+  
+
+  
+</div>
+
+        
+        <p>In my backup strategy I have a few tiers of backup for restore scenarios. I have my primary data folder that syncs to my Nextcloud server on my home network using the Nextcloud client. This is so I can sync that same data to multiple devices on my LAN, even while I am off my LAN using my Tailscale network. That Nextcloud instance has a NFS share mounted from my 8TB Synology NAS (one of these days I&rsquo;ll post about my Nextcloud setup). At the same time I also rsync that same data folder to a separate directory on my Synology NAS and that directory on the NAS, and everything else, also rsyncs to an external 8TB USB drive; all scheduled to be completed twice a week via a crontab. So that I have off-site backup of my primary data folder, I also use a service called <a href="https://mega.io/" target="_blank">MEGA</a>. I&rsquo;ve been using it for over a year and have not had any issues with it, until now.</p>
+        
+        <div class="read-more-link">
+            <a href="/posts/rclone-google-drive-cloud-backup/">Read More…</a>
+        </div>
+        
+        
+    </article>
     <article class="post">
         <div class="info">
   <h1 class="post-title">
@@ -947,51 +1016,6 @@ A while back I had purchased an <a href="https://a.co/d/1VzMgkl" target="_blank"
         
         
     </article>
-    <article class="post">
-        <div class="info">
-  <h1 class="post-title">
-    <a href="https://www.androidsdream.net/posts/expectations/">Expectations</a>
-  </h1>
-
-  <div class="headline">
-    <div>
-      
-      <time datetime=" 2024-02-03T08:15:45-0400" class="post-date">
-        February 3, 2024
-      </time>
-      
-      <span> - </span>
-      <span class="reading-time">
-        
-          
-        
-
-        <span>1 min read</span>
-      </span>
-    </div>
-
-    
-    <ul class="tags">
-      
-      <li class="tag-News">
-        <a href="https://www.androidsdream.net/tags/news">News</a>
-      </li>
-      
-    </ul>
-    
-  </div>
-
-  
-  
-
-  
-</div>
-
-        
-        <p>If you&rsquo;re here and haven&rsquo;t read my About page yet, you should expect post on this site will mostly be focused on technology, most of it probably Linux related, my passion. I can&rsquo;t guarantee that there will be frequent post, but I will try to fit one in every now and then outside of school (currently working on my B.S. in I.T.) and family time.</p>
-        
-        
-    </article>
 </div>
 
 
@@ -1011,7 +1035,13 @@ A while back I had purchased an <a href="https://a.co/d/1VzMgkl" target="_blank"
     <span class="page-number current">2</span>
     
     
+    
+    <a href="/page/3/">3</a>
+    
+    
 
+    
+    <a href="/page/3/" rel="next" class="extend next"> Next &raquo;</a>
     
 </div>
 

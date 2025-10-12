@@ -6,8 +6,15 @@
     <description>Recent content in Hugo on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Sep 2025 06:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 08:15:00 -0400</lastBuildDate>
     <atom:link href="https://www.androidsdream.net/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS EC2 Web Server And Let&#39;s Encrypt</title>
+      <link>https://www.androidsdream.net/posts/aws-ec2-web-server-letsencrypt/</link>
+      <pubDate>Sun, 12 Oct 2025 08:15:00 -0400</pubDate>
+      <guid>https://www.androidsdream.net/posts/aws-ec2-web-server-letsencrypt/</guid>
+      <description>&lt;p&gt;I started a project that I wanted to test to see if I could do it; mainly for a domain I have owned for many years that is currently not being used, &lt;a href=&#34;https://edwardcrosby.com&#34; target=&#34;_blank&#34;&gt;edwardcrosby.com&lt;/a&gt;. The idea was to use the free tier version of an AWS EC2 instance (free for only the first year) in their version of a Fedora Server virtual machine called Amazon Linux 2023. I setup that server and then completed the following.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hugo Site on Netlify</title>
       <link>https://www.androidsdream.net/posts/hugo-site-on-netlify/</link>

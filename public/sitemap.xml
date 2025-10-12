@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.androidsdream.net/</loc>
-    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
+    <lastmod>2025-10-12T08:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/aws/</loc>
+    <lastmod>2025-10-12T08:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/posts/aws-ec2-web-server-letsencrypt/</loc>
+    <lastmod>2025-10-12T08:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/hugo/</loc>
+    <lastmod>2025-10-12T08:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/lets-encrypt/</loc>
+    <lastmod>2025-10-12T08:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/posts/</loc>
+    <lastmod>2025-10-12T08:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/</loc>
+    <lastmod>2025-10-12T08:15:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/web-server/</loc>
+    <lastmod>2025-10-12T08:15:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/bitbucket/</loc>
     <lastmod>2025-09-09T06:00:00-04:00</lastmod>
@@ -14,22 +35,13 @@
     <loc>https://www.androidsdream.net/tags/homelab/</loc>
     <lastmod>2025-09-09T06:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://www.androidsdream.net/tags/hugo/</loc>
-    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
-  </url><url>
     <loc>https://www.androidsdream.net/posts/hugo-site-on-netlify/</loc>
     <lastmod>2025-09-09T06:00:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/netlify/</loc>
     <lastmod>2025-09-09T06:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://www.androidsdream.net/posts/</loc>
-    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
-  </url><url>
     <loc>https://www.androidsdream.net/tags/red-hat/</loc>
-    <lastmod>2025-09-09T06:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://www.androidsdream.net/tags/</loc>
     <lastmod>2025-09-09T06:00:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/almalinux/</loc>

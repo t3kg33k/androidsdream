@@ -42,7 +42,7 @@ The steps were ran as root on the EC2 instance.
 
 6. Tested non-https to confirm site access
 
-7. Installed all necessary packeges for Certbot and enabled the service
+7. Installed all necessary packages for Certbot and enabled the service
 
 	```dnf install -y certbot python3-certbot-dns-route53 python3-certbot-apache```
 

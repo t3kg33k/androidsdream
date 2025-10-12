@@ -10,8 +10,8 @@ I started a project that I wanted to test to see if I could do it; mainly for a 
 ***NOTE:** If you’re curious on how to setup an AWS EC2 instance, there is a ton of documentation, both on user blogs and on Amazon’s own documentation site, on how to do it.
 These are the steps on setting a web server and using Certbot to generate and manage the Let’s Encrypt SSL cert:
 
-****NOTES:** My steps were based on this article from [Amazon’s documentation](https://repost.aws/articles/AR_doGU0cxQymwf5A1Gl97yA/use-certbot-to-enable-https-with-apache-or-nginx-on-ec2-instances-running-amazon-linux-2023-al2023)
-The following steps assume a domain has been purchased and DNS hostname (A record) is pointing to the AWS EC2 instance public IP address.
+****NOTES:** My steps were based on this article from [Amazon’s documentation](https://repost.aws/articles/AR_doGU0cxQymwf5A1Gl97yA/use-certbot-to-enable-https-with-apache-or-nginx-on-ec2-instances-running-amazon-linux-2023-al2023).
+ The following steps assume a domain has been purchased and DNS hostname (A record) is pointing to the AWS EC2 instance public IP address.
 The following steps were ran as root on the EC2 instance.
 
 1. Install and enable httpd (with ssl package)

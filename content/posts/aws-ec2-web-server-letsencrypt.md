@@ -28,7 +28,7 @@ The steps were ran as root on the EC2 instance.
 
 	```firewall-cmd --permanent --add-service=http```
 
-    ```firewall-cmd --permanent --add-service=http```
+    ```firewall-cmd --permanent --add-service=https```
 
 	```firewall-cmd --reload```
 

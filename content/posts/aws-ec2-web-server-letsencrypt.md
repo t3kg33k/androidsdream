@@ -3,7 +3,7 @@ title = "AWS EC2 Web Server And Let's Encrypt"
 date = 2025-10-12T08:15:00-04:00
 draft = false
 #categories = ["news"]
-tags = ["AWS","web server","Hugo","Let's Encrypt"]
+tags = ["Linux","AWS","web server","Hugo","Let's Encrypt"]
 +++
 I started a project that I wanted to test to see if I could do it; mainly for a domain I have owned for many years that is currently not being used, [edwardcrosby.com](https://edwardcrosby.com). The idea was to use the free tier version of an AWS EC2 instance (free for only the first year) in their version of a Fedora Server virtual machine called Amazon Linux 2023. I setup that server and then completed the following.
 

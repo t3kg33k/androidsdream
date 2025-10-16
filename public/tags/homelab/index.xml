@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homelab on </title>
-    <link>http://localhost:1313/tags/homelab/</link>
+    <link>https://www.androidsdream.net/tags/homelab/</link>
     <description>Recent content in Homelab on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Sep 2025 06:00:00 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.androidsdream.net/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Site on Netlify</title>
-      <link>http://localhost:1313/posts/hugo-site-on-netlify/</link>
+      <link>https://www.androidsdream.net/posts/hugo-site-on-netlify/</link>
       <pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/hugo-site-on-netlify/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/Netlify_logo.png&#34; alt=&#34;Netlify&#34;&gt;&#xA;Well, it&amp;rsquo;s been a while since I have posted. I realized today that I never posted my transition of moving my self-hosted &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; generated web site from a Red Hat virtual web server on my homelab to the free-tier hosting on &lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34;&gt;Netlify&lt;/a&gt;. This also included finally learning the basics of &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; and using a remote Git repository in &lt;a href=&#34;https://bitbucket.org&#34; target=&#34;_blank&#34;&gt;Bitbucket&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It was a surprisingly easy transition, moving from my local server to Netlify. I think the most difficult part, for me, was learning how to get my local Git repo where my Hugo files existed to Bitbucket. I&amp;rsquo;m not a developer and anything code related, even if it is the simple use of Git, is a bit of a learning hurdle for me. I simply followed the steps from &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-netlify/&#34; target=&#34;_blank&#34;&gt;this site&lt;/a&gt;, and other resources from my web search, changed the DNS on my domain from my local WAN IP address to point at Netlify&amp;rsquo;s, and all was working. I was really surprised how easy it was to migrate. The only difference was I have a different and simplier netlify.toml config than what I found on the site referenced above. Mine looks like this:&lt;/p&gt;</description>
+      <guid>https://www.androidsdream.net/posts/hugo-site-on-netlify/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.androidsdream.net/images/Netlify_logo.png&#34; alt=&#34;Netlify&#34;&gt;&#xA;Well, it&amp;rsquo;s been a while since I have posted. I realized today that I never posted my transition of moving my self-hosted &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; generated web site from a Red Hat virtual web server on my homelab to the free-tier hosting on &lt;a href=&#34;https://www.netlify.com/&#34; target=&#34;_blank&#34;&gt;Netlify&lt;/a&gt;. This also included finally learning the basics of &lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; and using a remote Git repository in &lt;a href=&#34;https://bitbucket.org&#34; target=&#34;_blank&#34;&gt;Bitbucket&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It was a surprisingly easy transition, moving from my local server to Netlify. I think the most difficult part, for me, was learning how to get my local Git repo where my Hugo files existed to Bitbucket. I&amp;rsquo;m not a developer and anything code related, even if it is the simple use of Git, is a bit of a learning hurdle for me. I simply followed the steps from &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-netlify/&#34; target=&#34;_blank&#34;&gt;this site&lt;/a&gt;, and other resources from my web search, changed the DNS on my domain from my local WAN IP address to point at Netlify&amp;rsquo;s, and all was working. I was really surprised how easy it was to migrate. The only difference was I have a different and simplier netlify.toml config than what I found on the site referenced above. Mine looks like this:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Podman Rootless Container Start on Boot</title>
-      <link>http://localhost:1313/posts/podman-container-start-on-boot/</link>
+      <link>https://www.androidsdream.net/posts/podman-container-start-on-boot/</link>
       <pubDate>Wed, 04 Jun 2025 05:46:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/podman-container-start-on-boot/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/podman-logo.png&#34; alt=&#34;Podman&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been a Docker user for years. I&amp;rsquo;ve never been an expert, I&amp;rsquo;ve only used it enough to get by in deploying Containers on my home lab for self-hosting services. Recently, I decided it was time to use Podman instead of Docker just so I could learn the differences. The major differences, as I understand it, is that Podman is more secure due to the ability of deploying a rootless container. So, I setup a new virtual machine running AlmaLinux 9, installed all the Podman packages and proceeded with, first, setting up Homarr dashboard using a Docker compose file. I deployed it as usual; this time using the &lt;em&gt;podman-compose&lt;/em&gt; command instead of &lt;em&gt;docker-compose&lt;/em&gt; using a standard non-root user. From there, I decided to migrate a couple of other containers (Freshrss and flatnote) from a different machine where they had been running as a Docker container to the new virtual machine running Podman and they all started up nicely. What I had found, so far, is that most things translate easily from Docker to Podman. Fair enough, easy enough.&lt;/p&gt;</description>
+      <guid>https://www.androidsdream.net/posts/podman-container-start-on-boot/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.androidsdream.net/images/podman-logo.png&#34; alt=&#34;Podman&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been a Docker user for years. I&amp;rsquo;ve never been an expert, I&amp;rsquo;ve only used it enough to get by in deploying Containers on my home lab for self-hosting services. Recently, I decided it was time to use Podman instead of Docker just so I could learn the differences. The major differences, as I understand it, is that Podman is more secure due to the ability of deploying a rootless container. So, I setup a new virtual machine running AlmaLinux 9, installed all the Podman packages and proceeded with, first, setting up Homarr dashboard using a Docker compose file. I deployed it as usual; this time using the &lt;em&gt;podman-compose&lt;/em&gt; command instead of &lt;em&gt;docker-compose&lt;/em&gt; using a standard non-root user. From there, I decided to migrate a couple of other containers (Freshrss and flatnote) from a different machine where they had been running as a Docker container to the new virtual machine running Podman and they all started up nicely. What I had found, so far, is that most things translate easily from Docker to Podman. Fair enough, easy enough.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Home Network Internet Parental Controls with UniFi Network</title>
-      <link>http://localhost:1313/posts/home-network-internet-parental-controls/</link>
+      <link>https://www.androidsdream.net/posts/home-network-internet-parental-controls/</link>
       <pubDate>Mon, 03 Mar 2025 19:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/home-network-internet-parental-controls/</guid>
+      <guid>https://www.androidsdream.net/posts/home-network-internet-parental-controls/</guid>
       <description>&lt;p&gt;I have a young child in my home. As she gets older (she&amp;rsquo;s turning 9 years old this month) she has more and more exposure to the internet. For any parent, this is a challenge; I need to keep her safe from malicious content on the internet. I have used Ubiquiti network devices on my LAN for many years and have had no major complaints with their products. However, one thing that really isn’t very clear in their UniFi Network web interface, used to manage all my devices, is that you can manage internet use for a specific client. And not many people know this feature. Mainly, I believe, is because Ubiquiti is geared toward small office to enterprise level networks where there is an expectation that an experienced Network Admin knows their products and has the expertise to manage the network.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fedora &amp; Debian Photo Album Kiosk</title>
-      <link>http://localhost:1313/posts/fedora-debian-photo-album-kiosk/</link>
+      <link>https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/</link>
       <pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/fedora-debian-photo-album-kiosk/</guid>
+      <guid>https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/</guid>
       <description>&lt;p&gt;I &lt;a href=&#34;https://www.androidsdream.net/posts/raspberry-pi-kiosk/&#34; target=&#34;_blank&#34;&gt;previously posted&lt;/a&gt; about setting up a Raspberry Pi with Raspbian 11 as a photo album kiosk. Since then I wanted to test completing the same setup with Debian and Fedora on an x86 machine, just in case my Raspberry Pi died, or if I decided I needed a faster machine and wanted to use my spare Beelink S12. This a great setup if you have a spare machine and monitor lying around for displaying family photos (again, see previously post to see my example). Well, in testing on a virtual machine I came up with these basic steps below.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Minisforum NAB5 New VM Host</title>
-      <link>http://localhost:1313/posts/minisforum-nab5-new-vm-host/</link>
+      <link>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</link>
       <pubDate>Mon, 15 Apr 2024 05:06:00 -0400</pubDate>
-      <guid>http://localhost:1313/posts/minisforum-nab5-new-vm-host/</guid>
+      <guid>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</guid>
       <description>&lt;p&gt;I found such a good deal on a new computer a few weeks ago that I had to pull the trigger. I had been shopping for an inexpensive mini-PC that I could setup as a new KVM/libvirt virtual machine host to replace my Intel NUC and found the Minisforum Venus Series NAB5 on Newegg on sale for 359 dollars USD. Normally, I purchase used computers on Ebay, most of the time for under 200 dollars USD; the two Lenovo ThinkCentre M700 you see in the diagram below I purchased for less than 100 dollars USD (my leon machine had some roles at one time but have been migrated to other servers). My Intel NUC is just getting too old and doesn&amp;rsquo;t have the required resources I need for virtual machines, that was the main reason I purchased something new that had more resources.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Home Network</title>
-      <link>http://localhost:1313/posts/home-network/</link>
+      <link>https://www.androidsdream.net/posts/home-network/</link>
       <pubDate>Mon, 11 Mar 2024 08:15:45 -0400</pubDate>
-      <guid>http://localhost:1313/posts/home-network/</guid>
+      <guid>https://www.androidsdream.net/posts/home-network/</guid>
       <description>&lt;p&gt;Before I move forward with discussing events on my network and any cool new items I discover that I may want to post on this blog, I figure I would give you an idea of what I have setup as of today as a frame of reference. One thing that I have discovered over the years, though, is that my home lab is very dynamic.&#xA;The visual diagram below depicts a very basic setup of my LAN. A few things it does not display is the separate (segmented) VLAN I have setup for all my IoT devices, a number of wireless devices that I have on my default VLAN (Roku, smartphones, tablets, printers, etc.) and the &lt;a href=&#34;https://tailscale.com/&#34; target=&#34;_blank&#34;&gt;Tailscale&lt;/a&gt; network running on some of my nodes. In regards to the Tailscale network, just know that a few of the devices displayed below have services running that are only available on my Tailscale network (e.g. Nextcloud, Rustdesk). I am sure there is room for improvement and there are probably a few things I am doing wrong. But I am learning something new almost every day and that is why I find my LAN can be so dynamic.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Raspberry Pi Kiosk Photo Album</title>
-      <link>http://localhost:1313/posts/raspberry-pi-kiosk/</link>
+      <link>https://www.androidsdream.net/posts/raspberry-pi-kiosk/</link>
       <pubDate>Thu, 15 Feb 2024 08:15:45 -0400</pubDate>
-      <guid>http://localhost:1313/posts/raspberry-pi-kiosk/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/rasppi-kiosk.jpg&#34; alt=&#34;Raspberry Pi 3&#34;&gt;&#xA;A while back I had purchased an &lt;a href=&#34;https://a.co/d/1VzMgkl&#34; target=&#34;_blank&#34;&gt;Eyoyo 7 inch mini HDMI monitor&lt;/a&gt; to use on my physical servers on my home network. I usually setup headless configuration on my servers but I still need to be able to see what I am doing when I install the operating system (I haven&amp;rsquo;t had the time yet to configure automated install) or troubleshoot an issue. Well the monitor has been sitting on my home office desk, most of the time, doing nothing. I also had a Raspberry Pi 3 sitting around doing nothing so I decided it was time to setup a makeshift photo frame for my desk. I ended up following the usual guides found everywhere for configuring Raspberry Pi OS in kiosk mode and partially how to setup the feh utility for the image viewer in this &lt;a href=&#34;https://pimylifeup.com/raspberry-pi-photo-frame/&#34; target=&#34;_blank&#34;&gt;guide&lt;/a&gt;. In the article I followed the steps to disable screen blanking. I figured out, though, that I needed to add the following:&lt;/p&gt;</description>
+      <guid>https://www.androidsdream.net/posts/raspberry-pi-kiosk/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.androidsdream.net/images/rasppi-kiosk.jpg&#34; alt=&#34;Raspberry Pi 3&#34;&gt;&#xA;A while back I had purchased an &lt;a href=&#34;https://a.co/d/1VzMgkl&#34; target=&#34;_blank&#34;&gt;Eyoyo 7 inch mini HDMI monitor&lt;/a&gt; to use on my physical servers on my home network. I usually setup headless configuration on my servers but I still need to be able to see what I am doing when I install the operating system (I haven&amp;rsquo;t had the time yet to configure automated install) or troubleshoot an issue. Well the monitor has been sitting on my home office desk, most of the time, doing nothing. I also had a Raspberry Pi 3 sitting around doing nothing so I decided it was time to setup a makeshift photo frame for my desk. I ended up following the usual guides found everywhere for configuring Raspberry Pi OS in kiosk mode and partially how to setup the feh utility for the image viewer in this &lt;a href=&#34;https://pimylifeup.com/raspberry-pi-photo-frame/&#34; target=&#34;_blank&#34;&gt;guide&lt;/a&gt;. In the article I followed the steps to disable screen blanking. I figured out, though, that I needed to add the following:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

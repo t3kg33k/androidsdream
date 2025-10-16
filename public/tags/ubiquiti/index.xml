@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubiquiti on </title>
-    <link>http://localhost:1313/tags/ubiquiti/</link>
+    <link>https://www.androidsdream.net/tags/ubiquiti/</link>
     <description>Recent content in Ubiquiti on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Mar 2025 19:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ubiquiti/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.androidsdream.net/tags/ubiquiti/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Home Network Internet Parental Controls with UniFi Network</title>
-      <link>http://localhost:1313/posts/home-network-internet-parental-controls/</link>
+      <link>https://www.androidsdream.net/posts/home-network-internet-parental-controls/</link>
       <pubDate>Mon, 03 Mar 2025 19:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/home-network-internet-parental-controls/</guid>
+      <guid>https://www.androidsdream.net/posts/home-network-internet-parental-controls/</guid>
       <description>&lt;p&gt;I have a young child in my home. As she gets older (she&amp;rsquo;s turning 9 years old this month) she has more and more exposure to the internet. For any parent, this is a challenge; I need to keep her safe from malicious content on the internet. I have used Ubiquiti network devices on my LAN for many years and have had no major complaints with their products. However, one thing that really isn’t very clear in their UniFi Network web interface, used to manage all my devices, is that you can manage internet use for a specific client. And not many people know this feature. Mainly, I believe, is because Ubiquiti is geared toward small office to enterprise level networks where there is an expectation that an experienced Network Admin knows their products and has the expertise to manage the network.&lt;/p&gt;</description>
     </item>
   </channel>

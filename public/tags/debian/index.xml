@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debian on </title>
-    <link>https://www.androidsdream.net/tags/debian/</link>
+    <link>http://localhost:1313/tags/debian/</link>
     <description>Recent content in Debian on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Nov 2024 15:30:00 -0500</lastBuildDate>
-    <atom:link href="https://www.androidsdream.net/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fedora &amp; Debian Photo Album Kiosk</title>
-      <link>https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/</link>
+      <link>http://localhost:1313/posts/fedora-debian-photo-album-kiosk/</link>
       <pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
-      <guid>https://www.androidsdream.net/posts/fedora-debian-photo-album-kiosk/</guid>
+      <guid>http://localhost:1313/posts/fedora-debian-photo-album-kiosk/</guid>
       <description>&lt;p&gt;I &lt;a href=&#34;https://www.androidsdream.net/posts/raspberry-pi-kiosk/&#34; target=&#34;_blank&#34;&gt;previously posted&lt;/a&gt; about setting up a Raspberry Pi with Raspbian 11 as a photo album kiosk. Since then I wanted to test completing the same setup with Debian and Fedora on an x86 machine, just in case my Raspberry Pi died, or if I decided I needed a faster machine and wanted to use my spare Beelink S12. This a great setup if you have a spare machine and monitor lying around for displaying family photos (again, see previously post to see my example). Well, in testing on a virtual machine I came up with these basic steps below.&lt;/p&gt;</description>
     </item>
   </channel>

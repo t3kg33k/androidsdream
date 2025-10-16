@@ -4,7 +4,7 @@ date = 2025-03-20T11:00:00-04:00
 draft = false
 tags = ["Linux","Virtualization","Shell script","AlmaLinux","Red Hat"]
 +++
-![terminal](/images/KVM-logo.png)
+![kvm](/images/KVM-logo.png)
 
 In a [previous post](https://www.androidsdream.net/posts/virtual-machine-automated-install/) I discussed creating a RHEL or AlmaLinux KVM virtual machine using a Kickstart file and a bash shell script. I've recently decided that I wanted an easier approach to quickly creating a virtual machine using a pre-existing template I had created. In my research, I found there are quite a few ways to complete this task but this is the method that works for me, using AlmaLinux, and may also work for you.
 

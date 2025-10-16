@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kickstart on </title>
-    <link>https://www.androidsdream.net/tags/kickstart/</link>
+    <link>http://localhost:1313/tags/kickstart/</link>
     <description>Recent content in Kickstart on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Mar 2024 08:15:45 -0400</lastBuildDate>
-    <atom:link href="https://www.androidsdream.net/tags/kickstart/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/kickstart/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Virtual Machine Automated Install</title>
-      <link>https://www.androidsdream.net/posts/virtual-machine-automated-install/</link>
+      <link>http://localhost:1313/posts/virtual-machine-automated-install/</link>
       <pubDate>Wed, 13 Mar 2024 08:15:45 -0400</pubDate>
-      <guid>https://www.androidsdream.net/posts/virtual-machine-automated-install/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.androidsdream.net/images/terminal.png&#34; alt=&#34;terminal&#34;&gt;&#xA;As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing. As you may have also seen in my previous post is that I prefer the Linux operating system. There was a time that I used CentOS, but then that changed to AlmaLinux (for reasons, if you know the history of CentOS). However, when I found out that one can sign up for a Red Hat Developer account (&lt;a href=&#34;https://developers.redhat.com/products/rhel/download&#34; target=&#34;_blank&#34;&gt;https://developers.redhat.com/products/rhel/download&lt;/a&gt;) that allows for 16 free RHEL subscriptions, that settled the move from AlmaLinux to Red Hat. I use and support Red Hat in my day job, so why not use it at home too, was my thought. Don&amp;rsquo;t get me wrong about AlmaLinux. I love that operating system and consider it to be the best alternative to Red Hat.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/virtual-machine-automated-install/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/terminal.png&#34; alt=&#34;terminal&#34;&gt;&#xA;As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing. As you may have also seen in my previous post is that I prefer the Linux operating system. There was a time that I used CentOS, but then that changed to AlmaLinux (for reasons, if you know the history of CentOS). However, when I found out that one can sign up for a Red Hat Developer account (&lt;a href=&#34;https://developers.redhat.com/products/rhel/download&#34; target=&#34;_blank&#34;&gt;https://developers.redhat.com/products/rhel/download&lt;/a&gt;) that allows for 16 free RHEL subscriptions, that settled the move from AlmaLinux to Red Hat. I use and support Red Hat in my day job, so why not use it at home too, was my thought. Don&amp;rsquo;t get me wrong about AlmaLinux. I love that operating system and consider it to be the best alternative to Red Hat.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

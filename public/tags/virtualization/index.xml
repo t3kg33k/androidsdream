@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Virtualization on </title>
-    <link>https://www.androidsdream.net/tags/virtualization/</link>
+    <link>http://localhost:1313/tags/virtualization/</link>
     <description>Recent content in Virtualization on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Mar 2025 11:00:00 -0400</lastBuildDate>
-    <atom:link href="https://www.androidsdream.net/tags/virtualization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Oct 2025 08:30:00 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/virtualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KVM Windows 11 Virtual Machine Fine Tuning</title>
+      <link>http://localhost:1313/posts/kvm-windows11-virtual-machine-fine-tuning/</link>
+      <pubDate>Thu, 16 Oct 2025 08:30:00 -0400</pubDate>
+      <guid>http://localhost:1313/posts/kvm-windows11-virtual-machine-fine-tuning/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/KVM-logo.png&#34; alt=&#34;kvm&#34;&gt;&#xA;It is really unfortunate that I have to do this at a university that should be operating system and Office suite agnostic  (especially for a degree in Information Technology), but I needed to setup a Windows 11 virtual machine just so that I could use the Microsoft 365 Office Suite for some classes. Some of you, as you read this, are probably saying &amp;ldquo;just use LibreOffice&amp;rdquo;. And I do. I use it frequently when I can. But, if you have used LibreOffice enough you know, sometimes the translations to Microsoft Office format does not always populate correctly.&#xA;Installing and setting up Windows 11 guest was not an issue, even though it took forever.&#xA;*Side note: It still shocks me to this day how much time it takes to install and configure Windows compared to any and all Linux distributions. Where Windows 11 install and configure (this includes updating the operating system) can take hours, I can have Fedora installed and configured in less than an hour.&#xA;The issue that I discovered was how slow and bogged down the Windows 11 virtual machine seemed compared to the Linux virtual machines I seamlessly run without issue despite giving the guest plenty of memory and CPU. Then I remembered that the Windows Sys Admins at work had a similar issue when they setup Windows 2019 Server guest on the RHEL KVM host server that I support. I found then that virtio drivers needed to be installed on the guest, which I had done on the Windows 11 guest. But that didn&amp;rsquo;t seem to matter. Then I remembered that some parameters needed to be set within the qemu .xml file of the guest on the host. The parameter is this:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>KVM Virtual Machine Template</title>
-      <link>https://www.androidsdream.net/posts/kvm-virtual-machine-template/</link>
+      <link>http://localhost:1313/posts/kvm-virtual-machine-template/</link>
       <pubDate>Thu, 20 Mar 2025 11:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/posts/kvm-virtual-machine-template/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.androidsdream.net/images/KVM-logo.png&#34; alt=&#34;terminal&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In a &lt;a href=&#34;https://www.androidsdream.net/posts/virtual-machine-automated-install/&#34; target=&#34;_blank&#34;&gt;previous post&lt;/a&gt; I discussed creating a RHEL or AlmaLinux KVM virtual machine using a Kickstart file and a bash shell script. I&amp;rsquo;ve recently decided that I wanted an easier approach to quickly creating a virtual machine using a pre-existing template I had created. In my research, I found there are quite a few ways to complete this task but this is the method that works for me, using AlmaLinux, and may also work for you.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/kvm-virtual-machine-template/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/KVM-logo.png&#34; alt=&#34;kvm&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In a &lt;a href=&#34;https://www.androidsdream.net/posts/virtual-machine-automated-install/&#34; target=&#34;_blank&#34;&gt;previous post&lt;/a&gt; I discussed creating a RHEL or AlmaLinux KVM virtual machine using a Kickstart file and a bash shell script. I&amp;rsquo;ve recently decided that I wanted an easier approach to quickly creating a virtual machine using a pre-existing template I had created. In my research, I found there are quite a few ways to complete this task but this is the method that works for me, using AlmaLinux, and may also work for you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Minisforum NAB5 New VM Host</title>
-      <link>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</link>
+      <link>http://localhost:1313/posts/minisforum-nab5-new-vm-host/</link>
       <pubDate>Mon, 15 Apr 2024 05:06:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/posts/minisforum-nab5-new-vm-host/</guid>
+      <guid>http://localhost:1313/posts/minisforum-nab5-new-vm-host/</guid>
       <description>&lt;p&gt;I found such a good deal on a new computer a few weeks ago that I had to pull the trigger. I had been shopping for an inexpensive mini-PC that I could setup as a new KVM/libvirt virtual machine host to replace my Intel NUC and found the Minisforum Venus Series NAB5 on Newegg on sale for 359 dollars USD. Normally, I purchase used computers on Ebay, most of the time for under 200 dollars USD; the two Lenovo ThinkCentre M700 you see in the diagram below I purchased for less than 100 dollars USD (my leon machine had some roles at one time but have been migrated to other servers). My Intel NUC is just getting too old and doesn&amp;rsquo;t have the required resources I need for virtual machines, that was the main reason I purchased something new that had more resources.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Virtual Machine Automated Install</title>
-      <link>https://www.androidsdream.net/posts/virtual-machine-automated-install/</link>
+      <link>http://localhost:1313/posts/virtual-machine-automated-install/</link>
       <pubDate>Wed, 13 Mar 2024 08:15:45 -0400</pubDate>
-      <guid>https://www.androidsdream.net/posts/virtual-machine-automated-install/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.androidsdream.net/images/terminal.png&#34; alt=&#34;terminal&#34;&gt;&#xA;As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing. As you may have also seen in my previous post is that I prefer the Linux operating system. There was a time that I used CentOS, but then that changed to AlmaLinux (for reasons, if you know the history of CentOS). However, when I found out that one can sign up for a Red Hat Developer account (&lt;a href=&#34;https://developers.redhat.com/products/rhel/download&#34; target=&#34;_blank&#34;&gt;https://developers.redhat.com/products/rhel/download&lt;/a&gt;) that allows for 16 free RHEL subscriptions, that settled the move from AlmaLinux to Red Hat. I use and support Red Hat in my day job, so why not use it at home too, was my thought. Don&amp;rsquo;t get me wrong about AlmaLinux. I love that operating system and consider it to be the best alternative to Red Hat.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/virtual-machine-automated-install/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/terminal.png&#34; alt=&#34;terminal&#34;&gt;&#xA;As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing. As you may have also seen in my previous post is that I prefer the Linux operating system. There was a time that I used CentOS, but then that changed to AlmaLinux (for reasons, if you know the history of CentOS). However, when I found out that one can sign up for a Red Hat Developer account (&lt;a href=&#34;https://developers.redhat.com/products/rhel/download&#34; target=&#34;_blank&#34;&gt;https://developers.redhat.com/products/rhel/download&lt;/a&gt;) that allows for 16 free RHEL subscriptions, that settled the move from AlmaLinux to Red Hat. I use and support Red Hat in my day job, so why not use it at home too, was my thought. Don&amp;rsquo;t get me wrong about AlmaLinux. I love that operating system and consider it to be the best alternative to Red Hat.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

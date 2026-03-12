@@ -1,7 +1,7 @@
 +++
 title = "rclone Backblaze B2 Cloud Backup"
 date = 2026-03-14T06:00:00-04:00
-draft = true
+draft = false
 tags = ["Linux","rclone","Backups"]
 +++
 I've discussed using rclone in [previous post](https://www.androidsdream.net/posts/rclone-google-drive-cloud-backup/). Well, since I'm getting close to filling up some storage locally, and hard drive prices are currently astronmically high right now, I figured I would check out affordable cloud storage to send some of my data that I don't access often to long-term storage using Backblaze B2. And the reason I have chosen Backblaze B2 over Google Drive is that I am slowly migrating all services I use away from Google. One major issue I have with Google Drive is that it doesn't have the level of encryption that Backblaze has for keeping my data safe.

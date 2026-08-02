@@ -100,13 +100,13 @@
 
 
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.162.1">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.b3f7dd7e62d7e4bf3787214215314160ac8ff43d482888590d1299e0dbe4fca4.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.0311073845675b83896584e0b863a0fddced2671824da59cd518abf8cb03cb8c.css">
 
 
     
@@ -211,6 +211,14 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/">RHEL 8 to AlmaLinux 8 to AlmaLinux 9 to AlmaLinux 10 woes</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/">rclone Backblaze B2 Cloud Backup</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-windows11-virtual-machine-fine-tuning/">KVM Windows 11 Virtual Machine Fine Tuning</a>
                             </li>
                         
@@ -220,14 +228,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
                     
@@ -314,6 +314,85 @@
                 
             
             
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+            
+                
+                    <li class="heading">
+                        <a href="/tags/">Tags</a>
+                    </li>
                 
                 
                         
@@ -489,8 +568,8 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   <p><img src="/images/terminal.png" alt="terminal">
 As you may have seen in my last post, I have a Red Hat virtual machine host running on an Intel NUC. This virtual host has a couple of functions for my virtual environment: To setup virtual machines for permanent services (e.g. proxy server, web server, Home Assistant, etc.) and to setup a virtual machine for temporary testing. It seems that more times than any others that I have use cases for setting up a temporary virtual machine for some testing. As you may have also seen in my previous post is that I prefer the Linux operating system. There was a time that I used CentOS, but then that changed to AlmaLinux (for reasons, if you know the history of CentOS). However, when I found out that one can sign up for a Red Hat Developer account (<a href="https://developers.redhat.com/products/rhel/download" target="_blank">https://developers.redhat.com/products/rhel/download</a>) that allows for 16 free RHEL subscriptions, that settled the move from AlmaLinux to Red Hat. I use and support Red Hat in my day job, so why not use it at home too, was my thought. Don&rsquo;t get me wrong about AlmaLinux. I love that operating system and consider it to be the best alternative to Red Hat.</p>
 <p>There has always been a need for deploying a server really quickly. When I was using AlmaLinux as my primary server operating system, I found a shell script that would provision a machine automatically. I forgot where I found it and apologize for not giving credit to that person, but here it is with my own personal edits:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># This script is used to deploy a VM on KVM host using virt-install and a Kickstart file.</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># NOTE: For the current config, the Kickstart file should be in the home folder.</span>
 </span></span><span style="display:flex;"><span> 
@@ -507,17 +586,17 @@ As you may have seen in my last post, I have a Red Hat virtual machine host runn
 </span></span><span style="display:flex;"><span>read DISK_SIZE
 </span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span>sudo virt-install <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --name <span style="color:#e6db74">${</span>VM_NAME<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --memory<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>MEM_SIZE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --vcpus<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>VCPUS<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --os-type <span style="color:#e6db74">${</span>OS_TYPE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --location <span style="color:#e6db74">${</span>ISO_FILE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --disk path<span style="color:#f92672">=</span>/home/images/<span style="color:#e6db74">${</span>VM_NAME<span style="color:#e6db74">}</span>.qcow2,format<span style="color:#f92672">=</span>qcow2,bus<span style="color:#f92672">=</span>virtio,size<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>DISK_SIZE<span style="color:#e6db74">}</span>  <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --network bridge<span style="color:#f92672">=</span>br0 <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --graphics<span style="color:#f92672">=</span>none <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --os-variant<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>OS_VARIANT<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --console pty,target_type<span style="color:#f92672">=</span>serial <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --initrd-inject Alma8-ks_VM.cfg --extra-args <span style="color:#e6db74">&#34;inst.ks=file:/Alma8-ks_VM.cfg console=tty0 console=ttyS0,115200n8&#34;</span>
+</span></span></span><span style="display:flex;"><span>     --name <span style="color:#e6db74">${</span>VM_NAME<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --memory<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>MEM_SIZE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --vcpus<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>VCPUS<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --os-type <span style="color:#e6db74">${</span>OS_TYPE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --location <span style="color:#e6db74">${</span>ISO_FILE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --disk path<span style="color:#f92672">=</span>/home/images/<span style="color:#e6db74">${</span>VM_NAME<span style="color:#e6db74">}</span>.qcow2,format<span style="color:#f92672">=</span>qcow2,bus<span style="color:#f92672">=</span>virtio,size<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>DISK_SIZE<span style="color:#e6db74">}</span>  <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --network bridge<span style="color:#f92672">=</span>br0 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --graphics<span style="color:#f92672">=</span>none <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --os-variant<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>OS_VARIANT<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --console pty,target_type<span style="color:#f92672">=</span>serial <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --initrd-inject Alma8-ks_VM.cfg --extra-args <span style="color:#e6db74">&#34;inst.ks=file:/Alma8-ks_VM.cfg console=tty0 console=ttyS0,115200n8&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#     --extra-args=&#34;ks=http://&lt;web_server_IP&gt;/Alma8-ks_VM.cfg console=tty0 console=ttyS0,115200&#34; --check all=off</span>
 </span></span></code></pre></div><p>Accompanying that script was the following Kickstart file:</p>
 <pre tabindex="0"><code>#version=RHEL8
@@ -576,8 +655,8 @@ pwpolicy user --minlen=6 --minquality=1 --notstrict --nochanges --emptyok
 pwpolicy luks --minlen=6 --minquality=1 --notstrict --nochanges --notempty
 %end
 </code></pre><p>Since I started using Red Hat, here is a more current shell script I use to deploy my Red Hat virtual machines:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span> 
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span><span style="color:#75715e">## Define variables</span>
 </span></span><span style="display:flex;"><span>MEM_SIZE<span style="color:#f92672">=</span><span style="color:#ae81ff">4096</span>       <span style="color:#75715e"># Memory setting in MiB</span>
 </span></span><span style="display:flex;"><span>VCPUS<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>             <span style="color:#75715e"># CPU Cores count</span>
@@ -591,17 +670,17 @@ pwpolicy luks --minlen=6 --minquality=1 --notstrict --nochanges --notempty
 </span></span><span style="display:flex;"><span>read DISK_SIZE
 </span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span>sudo virt-install <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --name <span style="color:#e6db74">${</span>VM_NAME<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --memory<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>MEM_SIZE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --vcpus<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>VCPUS<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --os-type <span style="color:#e6db74">${</span>OS_TYPE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --location <span style="color:#e6db74">${</span>ISO_FILE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --disk path<span style="color:#f92672">=</span>/home/images/<span style="color:#e6db74">${</span>VM_NAME<span style="color:#e6db74">}</span>.qcow2,format<span style="color:#f92672">=</span>qcow2,bus<span style="color:#f92672">=</span>virtio,size<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>DISK_SIZE<span style="color:#e6db74">}</span>  <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --network bridge<span style="color:#f92672">=</span>br0 <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --graphics<span style="color:#f92672">=</span>none <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --os-variant<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>OS_VARIANT<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --console pty,target_type<span style="color:#f92672">=</span>serial <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>     --initrd-inject rhel8-ks_VM.cfg --extra-args <span style="color:#e6db74">&#34;inst.ks=file:/rhel8-ks_VM.cfg console=tty0 console=ttyS0,115200n8&#34;</span>
+</span></span></span><span style="display:flex;"><span>     --name <span style="color:#e6db74">${</span>VM_NAME<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --memory<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>MEM_SIZE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --vcpus<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>VCPUS<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --os-type <span style="color:#e6db74">${</span>OS_TYPE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --location <span style="color:#e6db74">${</span>ISO_FILE<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --disk path<span style="color:#f92672">=</span>/home/images/<span style="color:#e6db74">${</span>VM_NAME<span style="color:#e6db74">}</span>.qcow2,format<span style="color:#f92672">=</span>qcow2,bus<span style="color:#f92672">=</span>virtio,size<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>DISK_SIZE<span style="color:#e6db74">}</span>  <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --network bridge<span style="color:#f92672">=</span>br0 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --graphics<span style="color:#f92672">=</span>none <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --os-variant<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>OS_VARIANT<span style="color:#e6db74">}</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --console pty,target_type<span style="color:#f92672">=</span>serial <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>     --initrd-inject rhel8-ks_VM.cfg --extra-args <span style="color:#e6db74">&#34;inst.ks=file:/rhel8-ks_VM.cfg console=tty0 console=ttyS0,115200n8&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#     --extra-args=&#34;ks=http://&lt;web_server_IP&gt;/Alma8-ks_VM.cfg console=tty0 console=ttyS0,115200&#34; --check all=off</span>
 </span></span></code></pre></div><p>And here is the Red Hat Kickstart file (a little different than the AlmaLinux version):</p>
 <pre tabindex="0"><code>#version=RHEL8

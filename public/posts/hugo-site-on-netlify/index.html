@@ -100,13 +100,13 @@
 
 
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.162.1">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.b3f7dd7e62d7e4bf3787214215314160ac8ff43d482888590d1299e0dbe4fca4.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.0311073845675b83896584e0b863a0fddced2671824da59cd518abf8cb03cb8c.css">
 
 
     
@@ -211,6 +211,14 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/">RHEL 8 to AlmaLinux 8 to AlmaLinux 9 to AlmaLinux 10 woes</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/">rclone Backblaze B2 Cloud Backup</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-windows11-virtual-machine-fine-tuning/">KVM Windows 11 Virtual Machine Fine Tuning</a>
                             </li>
                         
@@ -220,14 +228,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
                     
@@ -314,6 +314,85 @@
                 
             
             
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+            
+                
+                    <li class="heading">
+                        <a href="/tags/">Tags</a>
+                    </li>
                 
                 
                         
@@ -489,7 +568,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   <p><img src="/images/Netlify_logo.png" alt="Netlify">
 Well, it&rsquo;s been a while since I have posted. I realized today that I never posted my transition of moving my self-hosted <a href="https://gohugo.io/" target="_blank">Hugo</a> generated web site from a Red Hat virtual web server on my homelab to the free-tier hosting on <a href="https://www.netlify.com/" target="_blank">Netlify</a>. This also included finally learning the basics of <a href="https://git-scm.com/" target="_blank">Git</a> and using a remote Git repository in <a href="https://bitbucket.org" target="_blank">Bitbucket</a>.</p>
 <p>It was a surprisingly easy transition, moving from my local server to Netlify. I think the most difficult part, for me, was learning how to get my local Git repo where my Hugo files existed to Bitbucket. I&rsquo;m not a developer and anything code related, even if it is the simple use of Git, is a bit of a learning hurdle for me. I simply followed the steps from <a href="https://gohugo.io/host-and-deploy/host-on-netlify/" target="_blank">this site</a>, and other resources from my web search, changed the DNS on my domain from my local WAN IP address to point at Netlify&rsquo;s, and all was working. I was really surprised how easy it was to migrate. The only difference was I have a different and simplier netlify.toml config than what I found on the site referenced above. Mine looks like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">build</span>]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">build</span>]
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">command</span> = <span style="color:#e6db74">&#34;hugo --minify --buildFuture&#34;</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">publish</span> = <span style="color:#e6db74">&#34;public&#34;</span>
 </span></span><span style="display:flex;"><span>

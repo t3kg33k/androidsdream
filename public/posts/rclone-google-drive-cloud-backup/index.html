@@ -100,13 +100,13 @@
 
 
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.162.1">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.b3f7dd7e62d7e4bf3787214215314160ac8ff43d482888590d1299e0dbe4fca4.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.0311073845675b83896584e0b863a0fddced2671824da59cd518abf8cb03cb8c.css">
 
 
     
@@ -211,6 +211,14 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/">RHEL 8 to AlmaLinux 8 to AlmaLinux 9 to AlmaLinux 10 woes</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/">rclone Backblaze B2 Cloud Backup</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-windows11-virtual-machine-fine-tuning/">KVM Windows 11 Virtual Machine Fine Tuning</a>
                             </li>
                         
@@ -220,14 +228,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
                     
@@ -314,6 +314,85 @@
                 
             
             
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+            
+                
+                    <li class="heading">
+                        <a href="/tags/">Tags</a>
+                    </li>
                 
                 
                         
@@ -477,8 +556,8 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   <p>In my backup strategy I have a few tiers of backup for restore scenarios. I have my primary data folder that syncs to my Nextcloud server on my home network using the Nextcloud client. This is so I can sync that same data to multiple devices on my LAN, even while I am off my LAN using my Tailscale network. That Nextcloud instance has a NFS share mounted from my 8TB Synology NAS (one of these days I&rsquo;ll post about my Nextcloud setup). At the same time I also rsync that same data folder to a separate directory on my Synology NAS and that directory on the NAS, and everything else, also rsyncs to an external 8TB USB drive; all scheduled to be completed twice a week via a crontab. So that I have off-site backup of my primary data folder, I also use a service called <a href="https://mega.io/" target="_blank">MEGA</a>. I&rsquo;ve been using it for over a year and have not had any issues with it, until now.</p>
 <p>I recently, finally, upgraded my main desktop computer after having last upgraded over 9 years ago (see <a href="https://www.androidsdream.net/posts/new-pc-build/" target="_blank">previous post</a>). In this new desktop, I have a second 2TB NVME drive mounted for just my primary data folder. After installing the MEGA client and pointing it to my main data folder on that drive I get an error message that the files can&rsquo;t sync. Apparently this is a known issue per their <a href="https://github.com/meganz/MEGAsync/issues/844" target="_blank">GitHub issue tracker</a> and they have been working on a fix, per the open case I have with their support.</p>
 <p>In the meantime, I needed an alternative cloud backup option for off-site backups. I have had a 2TB Google Drive for many years and I have barely used a quarter of it. I don&rsquo;t have a lot of high priority data, about 400GB, so Google Drive is a good temporary alternative until MEGA gets their sh** together. Since I use Linux as my daily driver, Google has not created a Linux client to sync data to Google Drive. However, rclone works really well in this area to allow for mounting of that Google Drive. There are tons of articles and video tutorials (<a href="https://youtu.be/ff8Ogk8NIPU?si=wZDLPVE1nvqGW_pP" target="_blank">good example</a>) on how to set this up so I used those resources to mount my Google Drive and began my copy process using rsync. Because I don&rsquo;t change files that I often, I currently don&rsquo;t have off-site backups scheduled in my crontab. Every so often (about once a week) I run the following Bash script:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># This script checks to see if already configured gdrive via rclone is mounted first before completing a backup</span>
 </span></span><span style="display:flex;"><span>MNTSHARE<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>mount | grep gdrive | awk <span style="color:#e6db74">&#39;{print $3}&#39;</span><span style="color:#66d9ef">)</span>

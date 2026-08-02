@@ -100,13 +100,13 @@
 
 
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.162.1">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.b3f7dd7e62d7e4bf3787214215314160ac8ff43d482888590d1299e0dbe4fca4.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.0311073845675b83896584e0b863a0fddced2671824da59cd518abf8cb03cb8c.css">
 
 
     
@@ -211,6 +211,14 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/">RHEL 8 to AlmaLinux 8 to AlmaLinux 9 to AlmaLinux 10 woes</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/">rclone Backblaze B2 Cloud Backup</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-windows11-virtual-machine-fine-tuning/">KVM Windows 11 Virtual Machine Fine Tuning</a>
                             </li>
                         
@@ -220,14 +228,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
                     
@@ -314,6 +314,85 @@
                 
             
             
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+            
+                
+                    <li class="heading">
+                        <a href="/tags/">Tags</a>
+                    </li>
                 
                 
                         
@@ -481,8 +560,8 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   <p><img src="/images/terminal-script.png" alt="Terminal script">
 As mentioned in <a href="https://www.androidsdream.net/posts/virtual-machine-automated-install/" target="_blank">last post</a> when I complete a server install of either Red Hat or AlmaLinux, I have a post install shell script that completes some configuration setups. Hopefully someday I will get to writing an Ansible playbook to complete the same steps instead of using the shell script. I already have an Ansible playbook that configures my Fedora desktop and laptop when I complete a fresh install (I&rsquo;ll share in a later post) so it&rsquo;s just a matter of completing some of the same steps in the server Ansible playbook.</p>
 <p>Below is the script I had used for my AlmaLinux server. Note that there are some items in this script that could potentially be included in the Kickstart file I posted in the last post, like setup a user and installing some utilities. Keep in mind in the below examples that the shell script is normally launched by the root user:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e"># script to complete a post-install auto setup</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"># script to complete a post-install auto setup</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>echo
 </span></span><span style="display:flex;"><span>nmtui
@@ -592,8 +671,8 @@ As mentioned in <a href="https://www.androidsdream.net/posts/virtual-machine-aut
 </span></span><span style="display:flex;"><span>echo
 </span></span><span style="display:flex;"><span>exit
 </span></span></code></pre></div><p>The below shell script is what I now use for my Red Hat servers. Note now that there are some sections I have commented out because I include it in the Kickstart file (see last post) that will configure certain task and install programs during server install:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e"># script to complete a post-install auto setup</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"># script to complete a post-install auto setup</span>
 </span></span><span style="display:flex;"><span>echo
 </span></span><span style="display:flex;"><span>echo
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Change network</span>

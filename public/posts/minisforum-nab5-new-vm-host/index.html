@@ -100,13 +100,13 @@
 
 
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.162.1">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.b3f7dd7e62d7e4bf3787214215314160ac8ff43d482888590d1299e0dbe4fca4.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.0311073845675b83896584e0b863a0fddced2671824da59cd518abf8cb03cb8c.css">
 
 
     
@@ -211,6 +211,14 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/">RHEL 8 to AlmaLinux 8 to AlmaLinux 9 to AlmaLinux 10 woes</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/">rclone Backblaze B2 Cloud Backup</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-windows11-virtual-machine-fine-tuning/">KVM Windows 11 Virtual Machine Fine Tuning</a>
                             </li>
                         
@@ -220,14 +228,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
                     
@@ -314,6 +314,85 @@
                 
             
             
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+            
+                
+                    <li class="heading">
+                        <a href="/tags/">Tags</a>
+                    </li>
                 
                 
                         
@@ -483,7 +562,7 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 <p><img src="/images/Minisforum_NAB5_specs.png" alt="Minisforum NAB5"></p>
 <p>For now, the Intel NUC will just serve as a &ldquo;test environment&rdquo; while the NAB5 will be my &ldquo;production environment&rdquo;.</p>
 <p>If you are curious on how I moved the virtual machines from the NUC to the NAB5, it was just simply a matter of shutting down the virtual machine on the NUC and copying over the &ldquo;virtualmachine&rdquo;.qcow2 file to the new directory on the new host and /etc/libvirt/qemu/&ldquo;virtualmachine&rdquo;.xml over to the same directory on the new host. The other thing that was required was making sure the .xml file had the correct path to where the &ldquo;virtualmachine&rdquo;.qcow2 exists on the new machine. For me, I created a path in /home/vms on the NAB5. The .xml will look something like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>&lt;disk type=&#39;file&#39; device=&#39;disk&#39;&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>&lt;disk type=&#39;file&#39; device=&#39;disk&#39;&gt;
 </span></span><span style="display:flex;"><span>      &lt;driver name=&#39;qemu&#39; type=&#39;qcow2&#39;/&gt;
 </span></span><span style="display:flex;"><span>      &lt;source file=&#39;/home/vms/pris.qcow2&#39;/&gt;
 </span></span><span style="display:flex;"><span>      &lt;target dev=&#39;vda&#39; bus=&#39;virtio&#39;/&gt;
@@ -493,8 +572,8 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 Also, I learned the hard way, that you have to make sure to tick that box in Virtual Machine Manager on the new host to Autostart if the host reboots or shuts down for any reason.</p>
 <p><img src="/images/vm_autostart.png" alt="Virtual Manager"></p>
 <p>And one final item I had to change was my VM backup shell script on the NUC and NAB5. Here is that script that I put in my crontab for root to run once a month on the NAB5:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e"># Script to backup the virtual machines</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"># Script to backup the virtual machines</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># 1. ----------------------------------</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># -- Backup blackhole pihole backup</span>

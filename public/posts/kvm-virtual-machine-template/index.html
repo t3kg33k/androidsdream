@@ -100,13 +100,13 @@
 
 
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.162.1">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.b3f7dd7e62d7e4bf3787214215314160ac8ff43d482888590d1299e0dbe4fca4.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.0311073845675b83896584e0b863a0fddced2671824da59cd518abf8cb03cb8c.css">
 
 
     
@@ -211,6 +211,14 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/">RHEL 8 to AlmaLinux 8 to AlmaLinux 9 to AlmaLinux 10 woes</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/">rclone Backblaze B2 Cloud Backup</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-windows11-virtual-machine-fine-tuning/">KVM Windows 11 Virtual Machine Fine Tuning</a>
                             </li>
                         
@@ -220,14 +228,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
                     
@@ -314,6 +314,85 @@
                 
             
             
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+            
+                
+                    <li class="heading">
+                        <a href="/tags/">Tags</a>
+                    </li>
                 
                 
                         
@@ -496,8 +575,8 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 <p><img src="/images/KVM_Alma_templ_07.png" alt="VM OS"></p>
 <p>Then, once the operating system installation is complete, I shut down the template virtual machine, making sure in boot options that it does not start when the host boots up.</p>
 <p>To create a new virtual machine, I run this custom bash shell script on the virtual host.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># This script can be used to create a new AlmaLinux KVM VM from existing templ and .qcow2 file</span>
 </span></span><span style="display:flex;"><span>echo
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&gt;&gt; What is the name of the new virtual machine? &#34;</span>
@@ -507,16 +586,16 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Create the VM via import of existing .qcow2 copied above</span>
 </span></span><span style="display:flex;"><span>virt-install --name <span style="color:#e6db74">&#34;</span>$VMNAME<span style="color:#e6db74">&#34;</span> --memory <span style="color:#ae81ff">4096</span> --vcpus <span style="color:#ae81ff">2</span> --disk /home/vms/<span style="color:#e6db74">&#34;</span>$VMNAME<span style="color:#e6db74">&#34;</span>.qcow2 --import --os-variant almalinux9 --wait <span style="color:#ae81ff">1</span>
 </span></span></code></pre></div><p>The very basic virt-install command in the above script is thus:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>virt-install --name almatest --memory 4096 --vcpus 2 --disk /home/vms/almatest.qcow2 --import --os-variant almalinux9 --wait 1
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>virt-install --name almatest --memory 4096 --vcpus 2 --disk /home/vms/almatest.qcow2 --import --os-variant almalinux9 --wait 1
 </span></span></code></pre></div><p>The above virt-install options meaning:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>almatest                 = name of new VM
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>almatest                 = name of new VM
 </span></span><span style="display:flex;"><span>4096                     = virtual memory allocation
 </span></span><span style="display:flex;"><span>2                        = number of virtual CPUs
 </span></span><span style="display:flex;"><span>/home/vms/almatest.qcow2 = new copied .qcow2 file from template
 </span></span><span style="display:flex;"><span>almalinux9               = Version of operating system
 </span></span><span style="display:flex;"><span>1                        = the number of minutes to wait for the new VM to be created before exiting the import
 </span></span></code></pre></div><p>One thing I noticed is that if you attempt to create a new virtual machine using the same name it will halt and display this output (which is great):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>ERROR    Disk /home/vms/almatest.qcow2 is already in use by other guests [&#39;almatest&#39;]. (Use --check path_in_use=off or --check all=off to override)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>ERROR    Disk /home/vms/almatest.qcow2 is already in use by other guests [&#39;almatest&#39;]. (Use --check path_in_use=off or --check all=off to override)
 </span></span></code></pre></div><p>When the new virtual machine is created using the template and script, I power it up, and continue with the normal post-provision configurations (hostname, network, etc).</p>
 <p>All virt-install command documentation can be found <a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-guest_virtual_machine_installation_overview-creating_guests_with_virt_install#sect-Guest_virtual_machine_import" target="_blank">here (where I found my example)</a> and <a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/configuring_and_managing_virtualization/getting-started-with-virtualization-in-rhel-8_configuring-and-managing-virtualization#creating-virtual-machines-using-the-command-line-interface_assembly_creating-virtual-machines" target="_blank">here</a>.</p>
 <p>If you have any questions or comments, please feel free to send me an email noted in my About page.</p>

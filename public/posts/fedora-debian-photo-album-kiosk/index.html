@@ -100,13 +100,13 @@
 
 
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.162.1">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.b3f7dd7e62d7e4bf3787214215314160ac8ff43d482888590d1299e0dbe4fca4.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.0311073845675b83896584e0b863a0fddced2671824da59cd518abf8cb03cb8c.css">
 
 
     
@@ -211,6 +211,14 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/">RHEL 8 to AlmaLinux 8 to AlmaLinux 9 to AlmaLinux 10 woes</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/">rclone Backblaze B2 Cloud Backup</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-windows11-virtual-machine-fine-tuning/">KVM Windows 11 Virtual Machine Fine Tuning</a>
                             </li>
                         
@@ -220,14 +228,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
                     
@@ -314,6 +314,85 @@
                 
             
             
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+            
+                
+                    <li class="heading">
+                        <a href="/tags/">Tags</a>
+                    </li>
                 
                 
                         
@@ -499,8 +578,8 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 <p><code>sudo mkdir /pics</code></p>
 <p><code>sudo chmod 777 -R /pics</code></p>
 <p>4. Create shell script and add execute permissions in home directory with following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>cd /pics
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span>cd /pics
 </span></span><span style="display:flex;"><span>feh -Z -z -F -D <span style="color:#ae81ff">300</span> --hide-pointer --auto-rotate
 </span></span></code></pre></div><p>NOTE:
 Z = auto zoom
@@ -523,7 +602,7 @@ D = slideshow delay in seconds</p>
 <p>2. Make backup of original</p>
 <p><code>sudo cp /etc/samba/smb.conf /etc/samba/smb.bk</code></p>
 <p>3. Edit original file, remove all and add the following</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[global]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[global]
 </span></span><span style="display:flex;"><span>        map to guest = Bad User
 </span></span><span style="display:flex;"><span>        log file = /var/log/samba/%m
 </span></span><span style="display:flex;"><span>        log level = 1
@@ -547,8 +626,8 @@ D = slideshow delay in seconds</p>
 <p><code>sudo mkdir /pics</code></p>
 <p><code>sudo chmod 777 -R /pics</code></p>
 <p>4. Create shell script and add execute permissions in home directory with following:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>cd /pics
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span>cd /pics
 </span></span><span style="display:flex;"><span>feh -ZF -z -D <span style="color:#ae81ff">300</span> --hide-pointer
 </span></span></code></pre></div><p>NOTE:
 Z = auto zoom
@@ -569,7 +648,7 @@ D = slideshow delay in seconds</p>
 <p><code>autologin-user-timeout=0</code></p>
 <p>8. Add kiosk.sh shell script to Preferences&gt;Session Settings&gt;Autostart&gt;LxQt Autostart. Be sure to also disable XScreenSaver in this same window. In Session Settings&gt;Basic Settings&gt;LXQt Modules, uncheck Power Management (this ensures Power Management notifications do not pop up).
 An alternative is to create a kiosk.desktop file in <code>/home/&lt;yourusername&gt;/.config/autostart/</code> and add the following to the file:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[Desktop Entry]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[Desktop Entry]
 </span></span><span style="display:flex;"><span>Exec=/home/&lt;yourusername&gt;/kiosk.sh
 </span></span><span style="display:flex;"><span>Name=kiosk
 </span></span><span style="display:flex;"><span>OnlyShowIn=LXQt;
@@ -582,7 +661,7 @@ An alternative is to create a kiosk.desktop file in <code>/home/&lt;yourusername
 <p>2. Make backup of original</p>
 <p><code>sudo cp /etc/samba/smb.conf /etc/samba/smb.bk</code></p>
 <p>3. Edit original file, remove all and add the following</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[global]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[global]
 </span></span><span style="display:flex;"><span>map to guest = Bad User
 </span></span><span style="display:flex;"><span>log file = /var/log/samba/%m
 </span></span><span style="display:flex;"><span>log level = 1
@@ -607,8 +686,8 @@ An alternative is to create a kiosk.desktop file in <code>/home/&lt;yourusername
 </figure>
 
 <p>I also created a bash shell script for Fedora in the event I need to repeat the process on physical hardware.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e"># Script to setup Fedora LXQt as a photo kiosk</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"># Script to setup Fedora LXQt as a photo kiosk</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Requirements: Run as user on Fedora LXQt, feh, lightdm-gtk-greeter-settings and lidghtdm-gtk</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># This script will install lightdm-gtk-greeter-settings and lidghtdm-gtk</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>

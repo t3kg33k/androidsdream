@@ -100,13 +100,13 @@
 
 
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.162.1">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.b3f7dd7e62d7e4bf3787214215314160ac8ff43d482888590d1299e0dbe4fca4.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.0311073845675b83896584e0b863a0fddced2671824da59cd518abf8cb03cb8c.css">
 
 
     
@@ -211,6 +211,14 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/">RHEL 8 to AlmaLinux 8 to AlmaLinux 9 to AlmaLinux 10 woes</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/">rclone Backblaze B2 Cloud Backup</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-windows11-virtual-machine-fine-tuning/">KVM Windows 11 Virtual Machine Fine Tuning</a>
                             </li>
                         
@@ -220,14 +228,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
                     
@@ -314,6 +314,85 @@
                 
             
             
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+            
+                
+                    <li class="heading">
+                        <a href="/tags/">Tags</a>
+                    </li>
                 
                 
                         
@@ -485,12 +564,12 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
   <p><img src="/images/podman-logo.png" alt="Podman"></p>
 <p>I&rsquo;ve been a Docker user for years. I&rsquo;ve never been an expert, I&rsquo;ve only used it enough to get by in deploying Containers on my home lab for self-hosting services. Recently, I decided it was time to use Podman instead of Docker just so I could learn the differences. The major differences, as I understand it, is that Podman is more secure due to the ability of deploying a rootless container. So, I setup a new virtual machine running AlmaLinux 9, installed all the Podman packages and proceeded with, first, setting up Homarr dashboard using a Docker compose file. I deployed it as usual; this time using the <em>podman-compose</em> command instead of <em>docker-compose</em> using a standard non-root user. From there, I decided to migrate a couple of other containers (Freshrss and flatnote) from a different machine where they had been running as a Docker container to the new virtual machine running Podman and they all started up nicely. What I had found, so far, is that most things translate easily from Docker to Podman. Fair enough, easy enough.</p>
 <p>But then I discovered, after a reboot of my virtual machine, that my Homarr dashboard wasn&rsquo;t up. I logged in with my user account, ran the <em>podman ps -a</em> command and noticed that all three containers were not running. Long story short, in my research I found that Podman containers do not start up at boot due to there not being a daemon. The only way to fix this was to create a systemd unit file under the standard user&rsquo;s profile. At first, I had found articles and blog post that you have to use the command <em>podman generate</em> on that specific container and it would create a systemd file for you, like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>podman generate systemd --new --name homarr
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>podman generate systemd --new --name homarr
 </span></span></code></pre></div><p>However, when I ran the command, this warning popped up:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>DEPRECATED command:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>DEPRECATED command:
 </span></span><span style="display:flex;"><span>It is recommended to use Quadlets for running containers and pods under systemd.
 </span></span></code></pre></div><p>Of course, this required further research on Quadlets. To keep this blog post short, after numerous articles and blog post, time and again, I discovered that most were creating a systemd file for each container. To me, that seemed ineffecient. Finally, I discovered a forum post (I believe it was the Bazzite forum) in which someone created a systemd file that started all containers at boot. During my own trial and error of creating the file named <em>podman-restart.service</em>, this is what I came up with, based on that user&rsquo;s file, that seems to be working just fine once I placed it in my users home directory in /home/user/.config/systemd/user/:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>[<span style="color:#ae81ff">Unit]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>[<span style="color:#ae81ff">Unit]</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">Description=Podman Start All Containers</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">StartLimitIntervalSec=0</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">Wants=network-online.target</span>
@@ -505,9 +584,9 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </span></span><span style="display:flex;"><span>[<span style="color:#ae81ff">Install]</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">WantedBy=default.target</span>
 </span></span></code></pre></div><p>Ran the following command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>systemctl --user daemon-reload
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>systemctl --user daemon-reload
 </span></span></code></pre></div><p>and enabled the service with this command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>systemctl --user enable podman-restart.service
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>systemctl --user enable podman-restart.service
 </span></span></code></pre></div><p>For the expert Podman users out there, I am sure there is a better way to do this but this seems to be working for me so I will stick with this plan going forward, if I decide to continue using Podman. If there is a better way, I welcome your input.</p>
 <p>If you have any questions or comments, please feel free to send me an email noted in my About page.</p>
 

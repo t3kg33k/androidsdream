@@ -100,13 +100,13 @@
 
 
 
-<meta name="generator" content="Hugo 0.152.2">
+<meta name="generator" content="Hugo 0.162.1">
 
 
     
     
 
-<link type="text/css" rel="stylesheet" href="/css/bundle.min.b3f7dd7e62d7e4bf3787214215314160ac8ff43d482888590d1299e0dbe4fca4.css">
+<link type="text/css" rel="stylesheet" href="/css/bundle.min.0311073845675b83896584e0b863a0fddced2671824da59cd518abf8cb03cb8c.css">
 
 
     
@@ -211,6 +211,14 @@
                         </li>
                         
                             <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/">RHEL 8 to AlmaLinux 8 to AlmaLinux 9 to AlmaLinux 10 woes</a>
+                            </li>
+                        
+                            <li class="bullet">
+                                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/">rclone Backblaze B2 Cloud Backup</a>
+                            </li>
+                        
+                            <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/kvm-windows11-virtual-machine-fine-tuning/">KVM Windows 11 Virtual Machine Fine Tuning</a>
                             </li>
                         
@@ -220,14 +228,6 @@
                         
                             <li class="bullet">
                                 <a href="https://www.androidsdream.net/posts/hugo-site-on-netlify/">Hugo Site on Netlify</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/podman-container-start-on-boot/">Podman Rootless Container Start on Boot</a>
-                            </li>
-                        
-                            <li class="bullet">
-                                <a href="https://www.androidsdream.net/posts/linux_101_part_02/">Linux 101 - Part 2</a>
                             </li>
                         
                     
@@ -314,6 +314,85 @@
                 
             
             
+                
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+                        
+                
+            
+        
+        
+            
+
+            
+                
+                
+            
+                
+                
+            
+            
+                
+                    <li class="heading">
+                        <a href="/tags/">Tags</a>
+                    </li>
                 
                 
                         
@@ -479,7 +558,7 @@ It is really unfortunate that I have to do this at a university that should be o
 <p>Installing and setting up Windows 11 guest was not an issue, even though it took forever.
 *Side note: It still shocks me to this day how much time it takes to install and configure Windows compared to any and all Linux distributions. Where Windows 11 install and configure (this includes updating the operating system) can take hours, I can have Fedora installed and configured in less than an hour.</p>
 <p>The issue that I discovered after the install was how slow and bogged down the Windows 11 virtual machine seemed, compared to the Linux virtual machines I seamlessly run without issue, despite giving the guest plenty of memory and CPU. Then I remembered that the Windows Sys Admins at work had a similar issue when they setup Windows 2019 Server guest on the RHEL KVM host server that I support. I found then that virtio drivers needed to be installed on the guest, which I had done on the Windows 11 guest. But that didn&rsquo;t seem to matter. Then I remembered that some parameters needed to be set within the qemu .xml file of the guest on the host. The parameter is this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span>  <span style="color:#f92672">&lt;hyperv&gt;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span>  <span style="color:#f92672">&lt;hyperv&gt;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;relaxed</span> <span style="color:#a6e22e">state=</span><span style="color:#e6db74">&#39;on&#39;</span><span style="color:#f92672">/&gt;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;vapic</span> <span style="color:#a6e22e">state=</span><span style="color:#e6db74">&#39;on&#39;</span><span style="color:#f92672">/&gt;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;spinlocks</span> <span style="color:#a6e22e">state=</span><span style="color:#e6db74">&#39;on&#39;</span> <span style="color:#a6e22e">retries=</span><span style="color:#e6db74">&#39;8191&#39;</span><span style="color:#f92672">/&gt;</span>
@@ -509,6 +588,10 @@ All details can be found in this Red Hat document <a href="https://docs.redhat.c
             <a class="previous-post" href="https://www.androidsdream.net/posts/aws-ec2-web-server-letsencrypt/?ref=footer"><span style="font-weight:bold;">« Previous</span><br>AWS EC2 Web Server And Let&#39;s Encrypt</a>
         
 	    
+            <div class="next-post">
+                <a href="https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/?ref=footer"><span style="font-weight:bold;">Next »</span><br>rclone Backblaze B2 Cloud Backup</a>
+            </div>
+        
     
 </div>
 

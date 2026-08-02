@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rclone on </title>
-    <link>https://www.androidsdream.net/tags/rclone/</link>
-    <description>Recent content in Rclone on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jul 2024 06:00:00 -0400</lastBuildDate>
-    <atom:link href="https://www.androidsdream.net/tags/rclone/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>rclone Google Drive Cloud Backup</title>
-      <link>https://www.androidsdream.net/posts/rclone-google-drive-cloud-backup/</link>
-      <pubDate>Tue, 23 Jul 2024 06:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/posts/rclone-google-drive-cloud-backup/</guid>
-      <description>&lt;p&gt;In my backup strategy I have a few tiers of backup for restore scenarios. I have my primary data folder that syncs to my Nextcloud server on my home network using the Nextcloud client. This is so I can sync that same data to multiple devices on my LAN, even while I am off my LAN using my Tailscale network. That Nextcloud instance has a NFS share mounted from my 8TB Synology NAS (one of these days I&amp;rsquo;ll post about my Nextcloud setup). At the same time I also rsync that same data folder to a separate directory on my Synology NAS and that directory on the NAS, and everything else, also rsyncs to an external 8TB USB drive; all scheduled to be completed twice a week via a crontab. So that I have off-site backup of my primary data folder, I also use a service called &lt;a href=&#34;https://mega.io/&#34; target=&#34;_blank&#34;&gt;MEGA&lt;/a&gt;. I&amp;rsquo;ve been using it for over a year and have not had any issues with it, until now.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Rclone on </title>
+		<link>https://www.androidsdream.net/tags/rclone/</link>
+		<description>Recent content in Rclone on </description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 12 Mar 2026 06:00:00 -0400</lastBuildDate>
+		
+			<atom:link href="https://www.androidsdream.net/tags/rclone/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>rclone Backblaze B2 Cloud Backup</title>
+				<link>https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/</link>
+				<pubDate>Thu, 12 Mar 2026 06:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/posts/rclone-backblaze-b2-cloud-backup/</guid>
+				<description>&lt;p&gt;I&amp;rsquo;ve discussed using rclone in &lt;a href=&#34;https://www.androidsdream.net/posts/rclone-google-drive-cloud-backup/&#34; target=&#34;_blank&#34;&gt;previous post&lt;/a&gt;. Well, since I&amp;rsquo;m getting close to filling up some storage locally, and hard drive prices are currently astronmically high right now, I figured I would check out affordable cloud storage to send some of my data that I don&amp;rsquo;t access often to long-term storage using Backblaze B2. And the reason I have chosen Backblaze B2 over Google Drive is that I am slowly migrating all services I use away from Google. One major issue I have with Google Drive is that it doesn&amp;rsquo;t have the level of encryption that Backblaze has for keeping my data safe.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>rclone Google Drive Cloud Backup</title>
+				<link>https://www.androidsdream.net/posts/rclone-google-drive-cloud-backup/</link>
+				<pubDate>Tue, 23 Jul 2024 06:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/posts/rclone-google-drive-cloud-backup/</guid>
+				<description>&lt;p&gt;In my backup strategy I have a few tiers of backup for restore scenarios. I have my primary data folder that syncs to my Nextcloud server on my home network using the Nextcloud client. This is so I can sync that same data to multiple devices on my LAN, even while I am off my LAN using my Tailscale network. That Nextcloud instance has a NFS share mounted from my 8TB Synology NAS (one of these days I&amp;rsquo;ll post about my Nextcloud setup). At the same time I also rsync that same data folder to a separate directory on my Synology NAS and that directory on the NAS, and everything else, also rsyncs to an external 8TB USB drive; all scheduled to be completed twice a week via a crontab. So that I have off-site backup of my primary data folder, I also use a service called &lt;a href=&#34;https://mega.io/&#34; target=&#34;_blank&#34;&gt;MEGA&lt;/a&gt;. I&amp;rsquo;ve been using it for over a year and have not had any issues with it, until now.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

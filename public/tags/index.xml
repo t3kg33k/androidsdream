@@ -1,222 +1,227 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on </title>
-    <link>https://www.androidsdream.net/tags/</link>
-    <description>Recent content in Tags on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 16 Oct 2025 08:30:00 -0400</lastBuildDate>
-    <atom:link href="https://www.androidsdream.net/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Linux</title>
-      <link>https://www.androidsdream.net/tags/linux/</link>
-      <pubDate>Thu, 16 Oct 2025 08:30:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Virtualization</title>
-      <link>https://www.androidsdream.net/tags/virtualization/</link>
-      <pubDate>Thu, 16 Oct 2025 08:30:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/virtualization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows 11</title>
-      <link>https://www.androidsdream.net/tags/windows-11/</link>
-      <pubDate>Thu, 16 Oct 2025 08:30:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/windows-11/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AWS</title>
-      <link>https://www.androidsdream.net/tags/aws/</link>
-      <pubDate>Sun, 12 Oct 2025 08:15:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/aws/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>https://www.androidsdream.net/tags/hugo/</link>
-      <pubDate>Sun, 12 Oct 2025 08:15:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Let&#39;s Encrypt</title>
-      <link>https://www.androidsdream.net/tags/lets-encrypt/</link>
-      <pubDate>Sun, 12 Oct 2025 08:15:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/lets-encrypt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Server</title>
-      <link>https://www.androidsdream.net/tags/web-server/</link>
-      <pubDate>Sun, 12 Oct 2025 08:15:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/web-server/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bitbucket</title>
-      <link>https://www.androidsdream.net/tags/bitbucket/</link>
-      <pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/bitbucket/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Git</title>
-      <link>https://www.androidsdream.net/tags/git/</link>
-      <pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Homelab</title>
-      <link>https://www.androidsdream.net/tags/homelab/</link>
-      <pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/homelab/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Netlify</title>
-      <link>https://www.androidsdream.net/tags/netlify/</link>
-      <pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/netlify/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Red Hat</title>
-      <link>https://www.androidsdream.net/tags/red-hat/</link>
-      <pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/red-hat/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AlmaLinux</title>
-      <link>https://www.androidsdream.net/tags/almalinux/</link>
-      <pubDate>Wed, 04 Jun 2025 05:46:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/almalinux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Containers</title>
-      <link>https://www.androidsdream.net/tags/containers/</link>
-      <pubDate>Wed, 04 Jun 2025 05:46:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/containers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Podman</title>
-      <link>https://www.androidsdream.net/tags/podman/</link>
-      <pubDate>Wed, 04 Jun 2025 05:46:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/podman/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shell Script</title>
-      <link>https://www.androidsdream.net/tags/shell-script/</link>
-      <pubDate>Thu, 20 Mar 2025 11:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/shell-script/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ubiquiti</title>
-      <link>https://www.androidsdream.net/tags/ubiquiti/</link>
-      <pubDate>Mon, 03 Mar 2025 19:00:00 -0500</pubDate>
-      <guid>https://www.androidsdream.net/tags/ubiquiti/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>UniFi</title>
-      <link>https://www.androidsdream.net/tags/unifi/</link>
-      <pubDate>Mon, 03 Mar 2025 19:00:00 -0500</pubDate>
-      <guid>https://www.androidsdream.net/tags/unifi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Debian</title>
-      <link>https://www.androidsdream.net/tags/debian/</link>
-      <pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
-      <guid>https://www.androidsdream.net/tags/debian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fedora</title>
-      <link>https://www.androidsdream.net/tags/fedora/</link>
-      <pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
-      <guid>https://www.androidsdream.net/tags/fedora/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hardware</title>
-      <link>https://www.androidsdream.net/tags/hardware/</link>
-      <pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
-      <guid>https://www.androidsdream.net/tags/hardware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kiosk</title>
-      <link>https://www.androidsdream.net/tags/kiosk/</link>
-      <pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
-      <guid>https://www.androidsdream.net/tags/kiosk/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Monitoring</title>
-      <link>https://www.androidsdream.net/tags/monitoring/</link>
-      <pubDate>Wed, 18 Sep 2024 17:30:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/monitoring/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ubuntu Server</title>
-      <link>https://www.androidsdream.net/tags/ubuntu-server/</link>
-      <pubDate>Wed, 18 Sep 2024 17:30:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/ubuntu-server/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Backups</title>
-      <link>https://www.androidsdream.net/tags/backups/</link>
-      <pubDate>Tue, 23 Jul 2024 06:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/backups/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rclone</title>
-      <link>https://www.androidsdream.net/tags/rclone/</link>
-      <pubDate>Tue, 23 Jul 2024 06:00:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/rclone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jellyfin</title>
-      <link>https://www.androidsdream.net/tags/jellyfin/</link>
-      <pubDate>Fri, 14 Jun 2024 06:15:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/jellyfin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ansible</title>
-      <link>https://www.androidsdream.net/tags/ansible/</link>
-      <pubDate>Thu, 23 May 2024 05:30:00 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/ansible/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>News</title>
-      <link>https://www.androidsdream.net/tags/news/</link>
-      <pubDate>Mon, 01 Apr 2024 08:15:45 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/news/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kickstart</title>
-      <link>https://www.androidsdream.net/tags/kickstart/</link>
-      <pubDate>Wed, 13 Mar 2024 08:15:45 -0400</pubDate>
-      <guid>https://www.androidsdream.net/tags/kickstart/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on </title>
+		<link>https://www.androidsdream.net/tags/</link>
+		<description>Recent content in Tags on </description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 02 Aug 2026 09:00:00 -0400</lastBuildDate>
+		
+			<atom:link href="https://www.androidsdream.net/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>AlmaLinux</title>
+				<link>https://www.androidsdream.net/tags/almalinux/</link>
+				<pubDate>Sun, 02 Aug 2026 09:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/almalinux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Linux</title>
+				<link>https://www.androidsdream.net/tags/linux/</link>
+				<pubDate>Sun, 02 Aug 2026 09:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/linux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Red Hat</title>
+				<link>https://www.androidsdream.net/tags/red-hat/</link>
+				<pubDate>Sun, 02 Aug 2026 09:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/red-hat/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Virtualization</title>
+				<link>https://www.androidsdream.net/tags/virtualization/</link>
+				<pubDate>Sun, 02 Aug 2026 09:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/virtualization/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Backups</title>
+				<link>https://www.androidsdream.net/tags/backups/</link>
+				<pubDate>Thu, 12 Mar 2026 06:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/backups/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Rclone</title>
+				<link>https://www.androidsdream.net/tags/rclone/</link>
+				<pubDate>Thu, 12 Mar 2026 06:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/rclone/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Windows 11</title>
+				<link>https://www.androidsdream.net/tags/windows-11/</link>
+				<pubDate>Thu, 16 Oct 2025 08:30:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/windows-11/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>AWS</title>
+				<link>https://www.androidsdream.net/tags/aws/</link>
+				<pubDate>Sun, 12 Oct 2025 08:15:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/aws/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Hugo</title>
+				<link>https://www.androidsdream.net/tags/hugo/</link>
+				<pubDate>Sun, 12 Oct 2025 08:15:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/hugo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Let&#39;s Encrypt</title>
+				<link>https://www.androidsdream.net/tags/lets-encrypt/</link>
+				<pubDate>Sun, 12 Oct 2025 08:15:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/lets-encrypt/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Web Server</title>
+				<link>https://www.androidsdream.net/tags/web-server/</link>
+				<pubDate>Sun, 12 Oct 2025 08:15:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/web-server/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Bitbucket</title>
+				<link>https://www.androidsdream.net/tags/bitbucket/</link>
+				<pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/bitbucket/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Git</title>
+				<link>https://www.androidsdream.net/tags/git/</link>
+				<pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/git/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Homelab</title>
+				<link>https://www.androidsdream.net/tags/homelab/</link>
+				<pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/homelab/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Netlify</title>
+				<link>https://www.androidsdream.net/tags/netlify/</link>
+				<pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/netlify/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Containers</title>
+				<link>https://www.androidsdream.net/tags/containers/</link>
+				<pubDate>Wed, 04 Jun 2025 05:46:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/containers/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Podman</title>
+				<link>https://www.androidsdream.net/tags/podman/</link>
+				<pubDate>Wed, 04 Jun 2025 05:46:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/podman/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Shell Script</title>
+				<link>https://www.androidsdream.net/tags/shell-script/</link>
+				<pubDate>Thu, 20 Mar 2025 11:00:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/shell-script/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ubiquiti</title>
+				<link>https://www.androidsdream.net/tags/ubiquiti/</link>
+				<pubDate>Mon, 03 Mar 2025 19:00:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/ubiquiti/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>UniFi</title>
+				<link>https://www.androidsdream.net/tags/unifi/</link>
+				<pubDate>Mon, 03 Mar 2025 19:00:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/unifi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Debian</title>
+				<link>https://www.androidsdream.net/tags/debian/</link>
+				<pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/debian/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Fedora</title>
+				<link>https://www.androidsdream.net/tags/fedora/</link>
+				<pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/fedora/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Hardware</title>
+				<link>https://www.androidsdream.net/tags/hardware/</link>
+				<pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/hardware/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Kiosk</title>
+				<link>https://www.androidsdream.net/tags/kiosk/</link>
+				<pubDate>Thu, 07 Nov 2024 15:30:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/kiosk/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Monitoring</title>
+				<link>https://www.androidsdream.net/tags/monitoring/</link>
+				<pubDate>Wed, 18 Sep 2024 17:30:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/monitoring/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ubuntu Server</title>
+				<link>https://www.androidsdream.net/tags/ubuntu-server/</link>
+				<pubDate>Wed, 18 Sep 2024 17:30:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/ubuntu-server/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jellyfin</title>
+				<link>https://www.androidsdream.net/tags/jellyfin/</link>
+				<pubDate>Fri, 14 Jun 2024 06:15:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/jellyfin/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ansible</title>
+				<link>https://www.androidsdream.net/tags/ansible/</link>
+				<pubDate>Thu, 23 May 2024 05:30:00 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/ansible/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>News</title>
+				<link>https://www.androidsdream.net/tags/news/</link>
+				<pubDate>Mon, 01 Apr 2024 08:15:45 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/news/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Kickstart</title>
+				<link>https://www.androidsdream.net/tags/kickstart/</link>
+				<pubDate>Wed, 13 Mar 2024 08:15:45 -0400</pubDate>
+				<guid>https://www.androidsdream.net/tags/kickstart/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

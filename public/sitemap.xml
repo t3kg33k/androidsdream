@@ -4,7 +4,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.androidsdream.net/</loc>
-    <lastmod>2026-08-02T09:00:00-04:00</lastmod>
+    <lastmod>2026-10-18T15:46:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/posts/netlify-move-to-github/</loc>
+    <lastmod>2026-10-18T15:46:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/posts/</loc>
+    <lastmod>2026-10-18T15:46:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/</loc>
+    <lastmod>2026-10-18T15:46:00-04:00</lastmod>
+  </url><url>
+    <loc>https://www.androidsdream.net/tags/test/</loc>
+    <lastmod>2026-10-18T15:46:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/almalinux/</loc>
     <lastmod>2026-08-02T09:00:00-04:00</lastmod>
@@ -12,16 +24,10 @@
     <loc>https://www.androidsdream.net/tags/linux/</loc>
     <lastmod>2026-08-02T09:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://www.androidsdream.net/posts/</loc>
-    <lastmod>2026-08-02T09:00:00-04:00</lastmod>
-  </url><url>
     <loc>https://www.androidsdream.net/tags/red-hat/</loc>
     <lastmod>2026-08-02T09:00:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/posts/rhel8-to-almalinux8-to-almalinux9-almalinux10-woes/</loc>
-    <lastmod>2026-08-02T09:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://www.androidsdream.net/tags/</loc>
     <lastmod>2026-08-02T09:00:00-04:00</lastmod>
   </url><url>
     <loc>https://www.androidsdream.net/tags/virtualization/</loc>

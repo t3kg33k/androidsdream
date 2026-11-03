@@ -14,7 +14,7 @@ I had completed the migration process of RHEL 8 to AlmaLinux 10 on virtual machi
 
 Upgrading from AlmaLinux 8 to AlmaLinux 9 one would think would be smoother. Using the leapp utility again, as one should do, it kept griping with some crazy errors. I attempted to remove the leapp packages but even then I kept receiving those same crazy errors. The only thing that would fix the issue and allow me to remove the leapp utility was to remove it from the exclude list in /etc/dnf/dnf.conf. Once I did that I was able to remove it and reinstall to proceed with the upgrade to AlmaLinux 9. Oh, but the hits keep coming.
 
-Once I was on AlmaLinux 9 and attempted to upgrade to AlmaLinux 10, the leapp utility gripped about my native NVMe multipathing setting. Apparently, it was disabled and it needed to be enabled. Again, following the necessary Red Hat article I was able to enable it in the kernel and proceed with upgrading to AlmaLinux 10.
+Once I was on AlmaLinux 9 and attempted to upgrade to AlmaLinux 10, the leapp utility griped about my native NVMe multipathing setting. Apparently, it was disabled and it needed to be enabled. Again, following the necessary Red Hat article I was able to enable it in the kernel and proceed with upgrading to AlmaLinux 10.
 
 Learning experiences. That's what I call these. In retrospect, I was definitely complaining about the woes during the migration process. But, now that it is over I appreciate the experience and would not change anything. My success rate, really, with using the ELevate utility to migrate to AlmaLinux is actually pretty high. This one experience is the only time out of, what, maybe ten times that I have had an issue. So, really, no complaints.
 

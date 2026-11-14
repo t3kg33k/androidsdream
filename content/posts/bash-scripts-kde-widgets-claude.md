@@ -1,6 +1,6 @@
 +++
 title = "Bash Shell Scripts, KDE Plasma Widgets & Claude AI"
-date = 2026-11-14T13:46:00-04:00
+date = 2026-11-14T14:36:00-05:00
 draft = false
 #categories = [""]
 tags = ["Shell Script, Linux, KDE Plasma, Claude AI"]

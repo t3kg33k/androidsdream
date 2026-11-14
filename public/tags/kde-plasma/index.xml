@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>KDE Plasma on </title>
+		<link>https://www.androidsdream.net/tags/kde-plasma/</link>
+		<description>Recent content in KDE Plasma on </description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 14 Nov 2026 14:36:00 -0500</lastBuildDate>
+		
+			<atom:link href="https://www.androidsdream.net/tags/kde-plasma/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bash Shell Scripts, KDE Plasma Widgets &amp; Claude AI</title>
+				<link>https://www.androidsdream.net/posts/bash-scripts-kde-widgets-claude/</link>
+				<pubDate>Sat, 14 Nov 2026 14:36:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/posts/bash-scripts-kde-widgets-claude/</guid>
+				<description>&lt;p&gt;So far, today has been a day of tinkering in bash shell scripts and seeing exactly what a.i. can do for me.&lt;/p&gt;&#xA;&lt;p&gt;I find that I am always running the &lt;code&gt;df -h&lt;/code&gt; command from terminal (I use Ghostty, by the way) to get a glimpse of storage on my desktop. I finally said to myself that I really need a way to automate this for a quick view, but only on mounts on my system that I am concerned about. With that in mind, since I have had available time today, I went to work on a shell script that I can just execute from command line in the terminal. Through some trial and error, I came up with this simple script:&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

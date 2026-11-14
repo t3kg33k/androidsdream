@@ -300,6 +300,8 @@
                 
                         
                 
+                        
+                
             
         
         
@@ -384,6 +386,8 @@
                 
                         
                 
+                        
+                
             
         
         
@@ -402,6 +406,8 @@
                         <a href="/tags/">Tags</a>
                     </li>
                 
+                
+                        
                 
                         
                 
@@ -554,8 +560,20 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
     
     <ul class="tags">
       
-      <li class="tag-Shell Script, Linux, KDE Plasma, Claude AI">
-        <a href="https://www.androidsdream.net/tags/shell-script-linux-kde-plasma-claude-ai">Shell Script, Linux, KDE Plasma, Claude AI</a>
+      <li class="tag-Shell Script">
+        <a href="https://www.androidsdream.net/tags/shell-script">Shell Script</a>
+      </li>
+      
+      <li class="tag-Linux">
+        <a href="https://www.androidsdream.net/tags/linux">Linux</a>
+      </li>
+      
+      <li class="tag-KDE Plasma">
+        <a href="https://www.androidsdream.net/tags/kde-plasma">KDE Plasma</a>
+      </li>
+      
+      <li class="tag-Claude AI">
+        <a href="https://www.androidsdream.net/tags/claude-ai">Claude AI</a>
       </li>
       
     </ul>
@@ -577,13 +595,13 @@ powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a
 </span></span><span style="display:flex;"><span>nasavail<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>df -h /mnt/nas_backup | awk <span style="color:#e6db74">&#39;NR&gt;1{print $4}&#39;</span><span style="color:#66d9ef">)</span>
 </span></span><span style="display:flex;"><span>nasuse<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>df -h /mnt/nas_backup | awk <span style="color:#e6db74">&#39;NR&gt;1{print $5}&#39;</span><span style="color:#66d9ef">)</span>
 </span></span><span style="display:flex;"><span>eighttbavail<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>df -h /run/media/$USER/8TB | awk <span style="color:#e6db74">&#39;NR&gt;1{print $4}&#39;</span><span style="color:#66d9ef">)</span>
-</span></span><span style="display:flex;"><span>eitghtbuse<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>df -h /run/media/$USER/8TB | awk <span style="color:#e6db74">&#39;NR&gt;1{print $5}&#39;</span><span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>eightbuse<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>df -h /run/media/$USER/8TB | awk <span style="color:#e6db74">&#39;NR&gt;1{print $5}&#39;</span><span style="color:#66d9ef">)</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>echo
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;---------------------------------------&#34;</span>
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Home:     Has </span>$homeavail<span style="color:#e6db74"> available and using </span>$homeuse<span style="color:#e6db74">&#34;</span>
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;NAS:      Has </span>$nasavail<span style="color:#e6db74"> available and using </span>$nasuse<span style="color:#e6db74">&#34;</span>
-</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;8TB:      Has </span>$eighttbavail<span style="color:#e6db74"> available and using </span>$eitghtbuse<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;8TB:      Has </span>$eighttbavail<span style="color:#e6db74"> available and using </span>$eightbuse<span style="color:#e6db74">&#34;</span>
 </span></span></code></pre></div><p>I&rsquo;m sure there are plenty of scripts already out there that I could have downloaded to use. And I am most positive that there are many other ways to write this script, as it is in most cases. But, this is what I came up with and it works for me.</p>
 <p>Even though the script works perfect for me, I decided to see just how powerful, and accurate, a.i. could be by using it to convert my script into a KDE Plasma 6 widget. So, I uploaded the script into Claude and this is what it came up with:</p>
 <p><img src="/images/kde_widget_custom.png" alt="KDE Widget"></p>

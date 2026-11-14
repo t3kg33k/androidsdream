@@ -14,10 +14,31 @@
 		
 			<atom:link href="https://www.androidsdream.net/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Shell Script, Linux, KDE Plasma, Claude AI</title>
-				<link>https://www.androidsdream.net/tags/shell-script-linux-kde-plasma-claude-ai/</link>
+				<title>Claude AI</title>
+				<link>https://www.androidsdream.net/tags/claude-ai/</link>
 				<pubDate>Sat, 14 Nov 2026 14:36:00 -0500</pubDate>
-				<guid>https://www.androidsdream.net/tags/shell-script-linux-kde-plasma-claude-ai/</guid>
+				<guid>https://www.androidsdream.net/tags/claude-ai/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>KDE Plasma</title>
+				<link>https://www.androidsdream.net/tags/kde-plasma/</link>
+				<pubDate>Sat, 14 Nov 2026 14:36:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/kde-plasma/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Linux</title>
+				<link>https://www.androidsdream.net/tags/linux/</link>
+				<pubDate>Sat, 14 Nov 2026 14:36:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/linux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Shell Script</title>
+				<link>https://www.androidsdream.net/tags/shell-script/</link>
+				<pubDate>Sat, 14 Nov 2026 14:36:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/shell-script/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -32,13 +53,6 @@
 				<link>https://www.androidsdream.net/tags/almalinux/</link>
 				<pubDate>Sun, 02 Aug 2026 09:00:00 -0400</pubDate>
 				<guid>https://www.androidsdream.net/tags/almalinux/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Linux</title>
-				<link>https://www.androidsdream.net/tags/linux/</link>
-				<pubDate>Sun, 02 Aug 2026 09:00:00 -0400</pubDate>
-				<guid>https://www.androidsdream.net/tags/linux/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -144,13 +158,6 @@
 				<link>https://www.androidsdream.net/tags/podman/</link>
 				<pubDate>Wed, 04 Jun 2025 05:46:00 -0400</pubDate>
 				<guid>https://www.androidsdream.net/tags/podman/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Shell Script</title>
-				<link>https://www.androidsdream.net/tags/shell-script/</link>
-				<pubDate>Thu, 20 Mar 2025 11:00:00 -0400</pubDate>
-				<guid>https://www.androidsdream.net/tags/shell-script/</guid>
 				<description></description>
 			</item>
 			<item>

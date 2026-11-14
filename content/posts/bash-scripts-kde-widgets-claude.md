@@ -1,9 +1,8 @@
 +++
 title = "Bash Shell Scripts, KDE Plasma Widgets & Claude AI"
-date = 2026-11-14T14:36:00-05:00
+date = "2026-11-14T14:36:00-05:00"
 draft = false
-#categories = [""]
-tags = ["Shell Script, Linux, KDE Plasma, Claude AI"]
+tags = ["Shell Script", "Linux", "KDE Plasma", "Claude AI"]
 +++
 
 So far, today has been a day of tinkering in bash shell scripts and seeing exactly what a.i. can do for me.
@@ -18,13 +17,13 @@ homeuse=$(df -h /home | awk 'NR>1{print $5}')
 nasavail=$(df -h /mnt/nas_backup | awk 'NR>1{print $4}')
 nasuse=$(df -h /mnt/nas_backup | awk 'NR>1{print $5}')
 eighttbavail=$(df -h /run/media/$USER/8TB | awk 'NR>1{print $4}')
-eitghtbuse=$(df -h /run/media/$USER/8TB | awk 'NR>1{print $5}')
+eightbuse=$(df -h /run/media/$USER/8TB | awk 'NR>1{print $5}')
 
 echo
 echo "---------------------------------------"
 echo "Home:     Has $homeavail available and using $homeuse"
 echo "NAS:      Has $nasavail available and using $nasuse"
-echo "8TB:      Has $eighttbavail available and using $eitghtbuse"
+echo "8TB:      Has $eighttbavail available and using $eightbuse"
 ```
 I'm sure there are plenty of scripts already out there that I could have downloaded to use. And I am most positive that there are many other ways to write this script, as it is in most cases. But, this is what I came up with and it works for me.
 

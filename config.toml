@@ -1,5 +1,6 @@
 baseURL = "https://www.androidsdream.net"
-languageCode = "en-us"
+#languageCode = "en-us"
+locale = "en"
 theme = "poison"
 pagerSize = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries

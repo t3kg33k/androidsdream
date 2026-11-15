@@ -10,9 +10,30 @@
 		
 		
 		
-			<lastBuildDate>Sat, 14 Nov 2026 14:36:00 -0500</lastBuildDate>
+			<lastBuildDate>Sun, 15 Nov 2026 08:55:00 -0500</lastBuildDate>
 		
 			<atom:link href="https://www.androidsdream.net/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Homelab</title>
+				<link>https://www.androidsdream.net/tags/homelab/</link>
+				<pubDate>Sun, 15 Nov 2026 08:55:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/homelab/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Notes</title>
+				<link>https://www.androidsdream.net/tags/notes/</link>
+				<pubDate>Sun, 15 Nov 2026 08:55:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/notes/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Self-Host</title>
+				<link>https://www.androidsdream.net/tags/self-host/</link>
+				<pubDate>Sun, 15 Nov 2026 08:55:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/tags/self-host/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Claude AI</title>
 				<link>https://www.androidsdream.net/tags/claude-ai/</link>
@@ -130,13 +151,6 @@
 				<link>https://www.androidsdream.net/tags/git/</link>
 				<pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
 				<guid>https://www.androidsdream.net/tags/git/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Homelab</title>
-				<link>https://www.androidsdream.net/tags/homelab/</link>
-				<pubDate>Tue, 09 Sep 2025 06:00:00 -0400</pubDate>
-				<guid>https://www.androidsdream.net/tags/homelab/</guid>
 				<description></description>
 			</item>
 			<item>

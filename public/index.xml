@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sat, 14 Nov 2026 14:36:00 -0500</lastBuildDate>
+			<lastBuildDate>Sun, 15 Nov 2026 08:55:00 -0500</lastBuildDate>
 		
 			<atom:link href="https://www.androidsdream.net/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Standard Notes: A Reconsideration</title>
+				<link>https://www.androidsdream.net/posts/standard-notes-a-reconsideration/</link>
+				<pubDate>Sun, 15 Nov 2026 08:55:00 -0500</pubDate>
+				<guid>https://www.androidsdream.net/posts/standard-notes-a-reconsideration/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;https://www.androidsdream.net/images/Focused_Linux_Workspace_Notes_blurred.png&#34; alt=&#34;Focused Notes&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re actively following my blog you&amp;rsquo;ll notice a rare occurrence&amp;hellip; two post in a row. Yep. I&amp;rsquo;ve been motivated. And have had a little extra time lately. So here goes my thoughts on notes.&lt;/p&gt;&#xA;&lt;p&gt;In the last fifteen years or so I have really made a conscience effort of taking notes as a daily practice. This is a vast contrast to how I treated note taking in my younger years; I was horrible, even in high school in the 80s and college in the 90s. I think the reason I have changed my practices is that I have found with age progression that I forget things more frequently. For a long time I jumped around on services. In the early years of Evernote, I used it for a bit and then went over to Google Keep. I was a long time user of Google Keep but then noticed a trend with Google of killing their services too often. Since I left that service around 2021 I have been jumping around trying to find the best notes service for my needs. A service that I can easily open my smartphone, start jotting down notes and still be accessible, after a sync, for when I get home and can either access the notes from a web interface or a desktop app on my Linux desktop and laptop. That led to trying Joplin and Obsidian for a short while. Those apps are actually pretty awesome but there were paper cuts, at that time, with the sync process and being able to access my notes on multiple devices.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Bash Shell Scripts, KDE Plasma Widgets &amp; Claude AI</title>
 				<link>https://www.androidsdream.net/posts/bash-scripts-kde-widgets-claude/</link>
